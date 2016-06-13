@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright © 2016 TUM. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="obG-Y5-kRd">
+                                <rect key="frame" x="20" y="626" width="335" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ZyB-DE-Hii"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ZyB-DE-Hii"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="ZyB-DE-Hii"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="eatery" translatesAutoresizingMaskIntoConstraints="NO" id="udv-j9-Rzk">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="975"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="top" secondItem="udv-j9-Rzk" secondAttribute="bottom" constant="8" symbolic="YES" id="4CR-O8-A2e"/>
+                            <constraint firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="5cz-MP-9tL"/>
+                            <constraint firstAttribute="trailing" secondItem="udv-j9-Rzk" secondAttribute="trailing" id="Af4-zy-ora"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="4" id="PpV-eu-aBD"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" symbolic="YES" id="SfN-ll-jLj"/>
+                            <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
+                            <constraint firstItem="udv-j9-Rzk" firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="f6V-tq-fgE"/>
+                            <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" symbolic="YES" id="pta-2w-kk7"/>
+                            <constraint firstItem="udv-j9-Rzk" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="qym-a8-be6"/>
+                            <constraint firstItem="udv-j9-Rzk" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="sGY-45-bqL"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Af4-zy-ora"/>
+                                <exclude reference="f6V-tq-fgE"/>
+                                <exclude reference="qym-a8-be6"/>
+                                <exclude reference="sGY-45-bqL"/>
+                                <exclude reference="4CR-O8-A2e"/>
+                                <exclude reference="PpV-eu-aBD"/>
+                                <exclude reference="pta-2w-kk7"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="Af4-zy-ora"/>
+                                <include reference="f6V-tq-fgE"/>
+                                <include reference="qym-a8-be6"/>
+                                <include reference="sGY-45-bqL"/>
+                                <include reference="4CR-O8-A2e"/>
+                                <exclude reference="5cz-MP-9tL"/>
+                                <include reference="PpV-eu-aBD"/>
+                                <exclude reference="SfN-ll-jLj"/>
+                                <exclude reference="Y44-ml-fuU"/>
+                                <include reference="pta-2w-kk7"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.75" y="374.625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="eatery" width="1536" height="2048"/>
+    </resources>
+</document>

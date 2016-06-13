@@ -1,0 +1,1724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01355044C2EA0F711696F4FF4957EC88 /* TTGEmojiRate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D26BBF31002BF87A229F97542F3525 /* TTGEmojiRate-dummy.m */; };
+		019916680C1A19D9BC92A5411A6A358E /* AMTagListView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47384F165D92208DA370D85FDA701C13 /* AMTagListView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		036F34CEEB075B4967E66B39F30F0770 /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3292FB88619A591199E4420724D5DF5 /* M13CheckboxGestureRecognizer.swift */; };
+		07B7E253A4B1A4090495C96C03CADB2F /* RainbowPopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30AF97094E10909ED811910E3019829 /* RainbowPopAnimator.swift */; };
+		096EFF0F52924F21FDCB53AB634268BB /* M13CheckboxFillManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1349010AD186F6306124FF684447C2 /* M13CheckboxFillManager.swift */; };
+		1614233200F77EEC7A5AEEB73F97FD04 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8E9196FB1F3206D2FA50BA7EFE69C /* M13Checkbox+IB.swift */; };
+		17978EDBED95F907EE4FCB70AC5EE7FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */; };
+		1CB376CC532127F6FE26AAF6E895A581 /* Pods-Eatery SmileTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0559E384AF243BC1ABD722708B9EBC /* Pods-Eatery SmileTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E4D5E971A53361009616D4BB731CECC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		2161CB44569782E42E45439692FBE3ED /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCB86FE2ABD4F7A4BB7D76BABB2BC6C /* M13Checkbox-dummy.m */; };
+		23D87794A0115C9203092AAD47A67DE2 /* RainbowNavigation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8B2814E355403161A5C166C4CEFB8 /* RainbowNavigation-dummy.m */; };
+		2C924D1F9793D606C116C79DD8DAEF12 /* RainbowColorSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B3DD0C136CEBB79F3129452C9ACC3 /* RainbowColorSource.swift */; };
+		2D39AFF4DCB31D402488B07909551F55 /* M13CheckboxSpiralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC0F3B707765FFD8EBCD8BB3B72B193 /* M13CheckboxSpiralManager.swift */; };
+		305133BCAA8380E5E6E9AF4FE3AEB087 /* M13CheckboxDotPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E092ED90BBB8A96603FBBD4AA7D45 /* M13CheckboxDotPathPresets.swift */; };
+		3391A826E404FE0E7CE9C7691AD35D85 /* M13CheckboxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC896A0DF5FAE8E96F1A2A931CA1781 /* M13CheckboxManager.swift */; };
+		34934E52C676AD1DD0DD011C7099BE42 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44F069C2EA786E765D4984318066875 /* SCLAlertView.swift */; };
+		40649F6DB4AA1E6E2F3DA55EFEED608C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		42190F64AEF403CE4D0857093ECDB03B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		425E6D3816E71420E9BFC1AC3B561656 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */; };
+		4DAE6D045781713B20E62D31816ADFFA /* UIWindow+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17C8F5B0166A98CA95CDACD77F2EDAE /* UIWindow+Swizzle.swift */; };
+		4E99830DDC4A9A73AFEFBAC6A631CFF9 /* M13CheckboxPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D123743C90F0C7BB0562DBE7C8907DC5 /* M13CheckboxPathPresets.swift */; };
+		5911EFAA4B0F183E82049962D2DB6808 /* TouchVisualizer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBEE8610A703EF7A2C0DB2C4F47C50A4 /* TouchVisualizer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D57076AF4FD3AAC8FD0E3760B38613 /* AMTagListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB82E8D1566B126D76B89E2055B501 /* AMTagListView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		667AA4212998EA72D814A0B22EAAF260 /* TTGEmojiRate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3445788487E5A2FDBD10E1BDA906607A /* TTGEmojiRate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77BEF1CFB06B83C1BF25D1A0C5822D12 /* AMTagView.h in Headers */ = {isa = PBXBuildFile; fileRef = B43B60CD4D14B2D3DE8B6F42ACCFDF18 /* AMTagView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A3A4DA1D804A0CF27A24911B1309084 /* Pods-Eatery Smile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4922E913539B43B263C66DB5DBC1773 /* Pods-Eatery Smile-dummy.m */; };
+		7A6D04E6391AB243F35BAE217FF6F81D /* M13CheckboxAnimationPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AD3D4852D7F7617069AAF79A2BFE63 /* M13CheckboxAnimationPresets.swift */; };
+		8002901EEAC6026FB9EA6777BC8B1C0D /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF96D543242B4E1069E6155CD8FDCA49 /* M13Checkbox.swift */; };
+		84E341BC8535DD01582617F2C0DA35BD /* M13CheckboxExpandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83FEABAA7098629D519F703C98476F7 /* M13CheckboxExpandManager.swift */; };
+		8693E1460FCF0DDC45C13704C390EF6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		888AD659FB3EE27273489249519FF4E1 /* AMTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2F2656A5EFDB5C7A0BFAC5186E0493 /* AMTagView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		89746AFED1601736D8E1F149AABD1A40 /* M13CheckboxBounceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B079DA3ADE2FF00D4D6376643247FF /* M13CheckboxBounceManager.swift */; };
+		8FF20912B2752CAB2E939765918C392F /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 90AC44D4F473B80978289C9E4AA9C076 /* Info.plist */; };
+		903EF4CCBFF058790312550AED38257E /* RainbowPushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF34457247948557C4640B3B77AC396 /* RainbowPushAnimator.swift */; };
+		909D451E973DB2B59C0C4BC354CE4255 /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE513301CAE2E8A037AD9A933B7D1E2 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		928EBAF19E6D4739410ACCC4DE0249F5 /* M13CheckboxSpiralPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56A38E012521B44C7B0CF6A8315A80C /* M13CheckboxSpiralPathPresets.swift */; };
+		954E060FD45AA3BCA6A5BDE36DF3D3CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		98073910D68EF04313202A5311C94864 /* TouchVisualizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B71C6069C0DD4488D225718025B8F3 /* TouchVisualizer-dummy.m */; };
+		98857E9046E7C06357B43097B9DFFF9D /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 099A2B7DA4E8017A25E69EFB5A12311F /* SCLAlertView-dummy.m */; };
+		A1C8A1EECDE386F10D607F57FE1C68E3 /* Pods-Eatery Smile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E725DBAFB87A326D7D60726EE519F0B9 /* Pods-Eatery Smile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8BA01DF5817C77025379C44896FCE85 /* AMTagListView.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE357677475A03AD33A5FF7CF6713E9 /* AMTagListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB83B753F91649BFBAAFAF8FE7BBA526 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		B332D15829C4647F9F9BE8B0405C1650 /* UINavigationBar+Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57AD09DC42BBB6DB4695F1E5CDF08A1 /* UINavigationBar+Rainbow.swift */; };
+		B94A10D56FC424B25056D629AEBE7E00 /* AMTagListView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B32A282737D8CFA125E9D66D4B7FC /* AMTagListView-dummy.m */; };
+		B9EDEEF2823826E8D5DF8F67C10FA3E0 /* RainbowNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77E443A232D3D499DFE93B49F6A483F /* RainbowNavigation.swift */; };
+		BA086DC8E14E7559854B3387AF2EFB98 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55113383FA4F27E246BB7BACA8C0E465 /* Configuration.swift */; };
+		BC3B9E7AFBEDC160E284B9DE85BBC0FF /* M13CheckboxFadeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B580BA840F12F0B16DAE23FB5D457 /* M13CheckboxFadeManager.swift */; };
+		BF82975857F88C2BCC8C5CABDADD06A2 /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 985292D96F4224192040A73C182CD907 /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFE8F1F59B6DA0112CB12419EF5D45A0 /* RainbowNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 810E4FCD594F436AED83D63164DDBF50 /* RainbowNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C92C0861BEEDB55D7E4163DAF858689E /* TTGEmojiRate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3732E79D7EB60FFA6F1F63C64C267961 /* TTGEmojiRate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9A421EED3440FF929A48E233A28248 /* Pods-Eatery SmileTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FC90EE85082FA066B80BD853B25B4B /* Pods-Eatery SmileTests-dummy.m */; };
+		CD7C552ACD6156D56AE4BE1F228CD688 /* M13CheckboxStrokeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ABC84C3D7728BE77CED3BDACD111FE /* M13CheckboxStrokeManager.swift */; };
+		D67D13935989D3268E0400DC21D6E9BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		D7E72B50AFFE8AFC9DDD470D7CBAA243 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E567E5259FBBBFA730E5C625C29C1AB /* SCLExtensions.swift */; };
+		DA00C7AD139C0083C8D549AF7D79B035 /* TTGEmojiRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 90FE4D6EF32912A27B0CEA3B4033E83C /* TTGEmojiRate.bundle */; };
+		E0D9A89F8228090F5547FD5951DBAB68 /* Visualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D97EF4EA916AF1F6ECD16C5977911 /* Visualizer.swift */; };
+		E4C2681B2694F3BDFE5FAD03D3580605 /* EmojiRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C987ADEF318A9E88DD05C369C30E42 /* EmojiRateView.swift */; };
+		E56E0301F92BC41BEC3C4A4905A5008F /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158168FF46EA0383C81899C69794EC63 /* TouchView.swift */; };
+		ECC20FD1A104D5755246B07AC45FA916 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 8A9522044D0181EF35F9B4700B0687A7 /* Info.plist */; };
+		F31B4CB5FED9CA97A27BD9EA00E2AFB7 /* M13CheckboxFlatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544DA4A03F7576B800D7F877903E4CC /* M13CheckboxFlatManager.swift */; };
+		F44047DF453E3DCEE6C2D09BC695AB39 /* M13CheckboxDotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57959ED456BB8001B385573EB8566BDE /* M13CheckboxDotManager.swift */; };
+		F9197FBF3F88A374357753867B494DD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		F92203B1D874F46D72F59C3F63AAD368 /* RainbowNavigation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CC2B257646843A4BCEFDD736E3A0B0 /* RainbowNavigation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE195DE6BAEB02479F6518A74BBE0720 /* RainbowDragPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AB6523AA8E21AB0BAC050D5C5D3258 /* RainbowDragPop.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BF7550D24CEEDAE7C7D0D86B4D1AF89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3AFC0E9905CA362D94DA496A23E2DD;
+			remoteInfo = M13Checkbox;
+		};
+		6F42B4D4C6BB9032EC3C9D794C836811 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57A37C8AC4175C995A68C833107FF89F;
+			remoteInfo = TTGEmojiRate;
+		};
+		75E5656EAA5FED4526B8416C9841B5D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480ADD1F8294596474DDD8CAA105A67C;
+			remoteInfo = TouchVisualizer;
+		};
+		9BCC90A8BB94E7E3C70F7F97D2387660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524EB80EB3696C952C76CDE20BC67D20;
+			remoteInfo = RainbowNavigation;
+		};
+		D70DEC9EFB9D4A1599581DD3261F8D15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35F5A4A6B702FC5C62E0A76D67F3B6B3;
+			remoteInfo = AMTagListView;
+		};
+		FC063B40D11A6077487D1FC3A2B2E7DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3090449D99F2E52F2111BAB826DD4812;
+			remoteInfo = SCLAlertView;
+		};
+		FFB56ED83DB01085680AD639E65910EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7A19711579C66E26EE8204523EA20D;
+			remoteInfo = "TTGEmojiRate-TTGEmojiRate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022C1CD802D8BEAA73A2DCBE1F4016B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094605EE140FAB8B8E94C1427C3AC197 /* Pods-Eatery SmileTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eatery SmileTests-resources.sh"; sourceTree = "<group>"; };
+		099A2B7DA4E8017A25E69EFB5A12311F /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
+		0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		12317087ACE1E462DA03728CEE78EC3E /* RainbowNavigation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RainbowNavigation.xcconfig; sourceTree = "<group>"; };
+		133A35A1DA40AE5655335E2C85B22017 /* AMTagListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMTagListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		158168FF46EA0383C81899C69794EC63 /* TouchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TouchView.swift; path = Pod/Classes/TouchView.swift; sourceTree = "<group>"; };
+		17FC90EE85082FA066B80BD853B25B4B /* Pods-Eatery SmileTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Eatery SmileTests-dummy.m"; sourceTree = "<group>"; };
+		1F1B580BA840F12F0B16DAE23FB5D457 /* M13CheckboxFadeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeManager.swift; path = Sources/Managers/M13CheckboxFadeManager.swift; sourceTree = "<group>"; };
+		21A2D775574AC67833A3ACD10658F978 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22AD3D4852D7F7617069AAF79A2BFE63 /* M13CheckboxAnimationPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationPresets.swift; path = Sources/M13CheckboxAnimationPresets.swift; sourceTree = "<group>"; };
+		23B079DA3ADE2FF00D4D6376643247FF /* M13CheckboxBounceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceManager.swift; path = Sources/Managers/M13CheckboxBounceManager.swift; sourceTree = "<group>"; };
+		245604A88181A853BAAFCA2523F25FC1 /* TouchVisualizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TouchVisualizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4B32A282737D8CFA125E9D66D4B7FC /* AMTagListView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMTagListView-dummy.m"; sourceTree = "<group>"; };
+		2F8D97EF4EA916AF1F6ECD16C5977911 /* Visualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visualizer.swift; path = Pod/Classes/Visualizer.swift; sourceTree = "<group>"; };
+		30252C5E587C950B5D35848E83971713 /* TTGEmojiRate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTGEmojiRate.xcconfig; sourceTree = "<group>"; };
+		32C366B470F3035C9F982185130F5E4A /* AMTagListView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AMTagListView.modulemap; sourceTree = "<group>"; };
+		3445788487E5A2FDBD10E1BDA906607A /* TTGEmojiRate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTGEmojiRate.h; path = Pod/Classes/TTGEmojiRate.h; sourceTree = "<group>"; };
+		3732E79D7EB60FFA6F1F63C64C267961 /* TTGEmojiRate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTGEmojiRate-umbrella.h"; sourceTree = "<group>"; };
+		37AB6523AA8E21AB0BAC050D5C5D3258 /* RainbowDragPop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RainbowDragPop.swift; path = RainbowNavigation/RainbowDragPop.swift; sourceTree = "<group>"; };
+		3AE8B2814E355403161A5C166C4CEFB8 /* RainbowNavigation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RainbowNavigation-dummy.m"; sourceTree = "<group>"; };
+		3C0559E384AF243BC1ABD722708B9EBC /* Pods-Eatery SmileTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Eatery SmileTests-umbrella.h"; sourceTree = "<group>"; };
+		3C9854452B704969D40D932335DEE0FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D4E986EA667279D1B7ABD4EB3FE7DA8 /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C7AB6D828B2AF048C6AE5630962311 /* TouchVisualizer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TouchVisualizer.modulemap; sourceTree = "<group>"; };
+		45F212BF05472A910FEFF0C44C109A1F /* Pods_Eatery_Smile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eatery_Smile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47384F165D92208DA370D85FDA701C13 /* AMTagListView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMTagListView-umbrella.h"; sourceTree = "<group>"; };
+		4CA8B52FEFE8F4DEE68F7105504BE7B2 /* Pods-Eatery SmileTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Eatery SmileTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4CAB82E8D1566B126D76B89E2055B501 /* AMTagListView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMTagListView.m; path = Source/AMTagListView.m; sourceTree = "<group>"; };
+		4CCB86FE2ABD4F7A4BB7D76BABB2BC6C /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		4DD87FDF9D005A297173A01F534D6DA3 /* Pods-Eatery Smile-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Eatery Smile-acknowledgements.plist"; sourceTree = "<group>"; };
+		4FC0F3B707765FFD8EBCD8BB3B72B193 /* M13CheckboxSpiralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralManager.swift; path = Sources/Managers/M13CheckboxSpiralManager.swift; sourceTree = "<group>"; };
+		5190E79047B5B394BE10CC127A5A75DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55113383FA4F27E246BB7BACA8C0E465 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Pod/Classes/Configuration.swift; sourceTree = "<group>"; };
+		55672136507D0B2BABFEFE9AF1F92D4D /* ResourceBundle-TTGEmojiRate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TTGEmojiRate-Info.plist"; sourceTree = "<group>"; };
+		562CFB4B69AB65FF993C1B4A9C837085 /* TTGEmojiRate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTGEmojiRate-prefix.pch"; sourceTree = "<group>"; };
+		57959ED456BB8001B385573EB8566BDE /* M13CheckboxDotManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotManager.swift; path = Sources/Managers/M13CheckboxDotManager.swift; sourceTree = "<group>"; };
+		5AF34457247948557C4640B3B77AC396 /* RainbowPushAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RainbowPushAnimator.swift; path = RainbowNavigation/RainbowPushAnimator.swift; sourceTree = "<group>"; };
+		5E9C4133443611A3D8C95B99AEF32F01 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ED70155AA73BF79791E711DAED7B8F5 /* Pods-Eatery Smile-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eatery Smile-resources.sh"; sourceTree = "<group>"; };
+		624FA081735187CB2653E992A23CB8A6 /* Pods-Eatery Smile-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eatery Smile-frameworks.sh"; sourceTree = "<group>"; };
+		6544DA4A03F7576B800D7F877903E4CC /* M13CheckboxFlatManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatManager.swift; path = Sources/Managers/M13CheckboxFlatManager.swift; sourceTree = "<group>"; };
+		675D6A16D70D8BEE3FBDBF4E74D5C097 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E567E5259FBBBFA730E5C625C29C1AB /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		6E86312B82BE61107C2D69430C8F6EB5 /* Pods-Eatery Smile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eatery Smile.debug.xcconfig"; sourceTree = "<group>"; };
+		6EE513301CAE2E8A037AD9A933B7D1E2 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		70C987ADEF318A9E88DD05C369C30E42 /* EmojiRateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiRateView.swift; path = Pod/Classes/EmojiRateView.swift; sourceTree = "<group>"; };
+		72A87E6FA46C356BE0BA4C7FE11E730C /* Pods-Eatery Smile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Eatery Smile.modulemap"; sourceTree = "<group>"; };
+		755490053C752B2982E659B498BCC1DA /* TouchVisualizer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TouchVisualizer.xcconfig; sourceTree = "<group>"; };
+		771038A8C7537EE7A17D18F0B3377C8C /* TouchVisualizer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchVisualizer-prefix.pch"; sourceTree = "<group>"; };
+		7BC896A0DF5FAE8E96F1A2A931CA1781 /* M13CheckboxManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxManager.swift; path = Sources/M13CheckboxManager.swift; sourceTree = "<group>"; };
+		80F7FE6946B115642BE2278250A6FBA4 /* Pods-Eatery SmileTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Eatery SmileTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		810E4FCD594F436AED83D63164DDBF50 /* RainbowNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RainbowNavigation.h; path = RainbowNavigation/RainbowNavigation.h; sourceTree = "<group>"; };
+		827E2B2845F62C84FF68592EBD89A381 /* Pods-Eatery SmileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eatery SmileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82FDD957D567D5A44C5DEB542A130494 /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
+		847E092ED90BBB8A96603FBBD4AA7D45 /* M13CheckboxDotPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotPathPresets.swift; path = Sources/Presets/M13CheckboxDotPathPresets.swift; sourceTree = "<group>"; };
+		84BC9DE5F6BEB136DC8E7F41A0BDAA9E /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
+		8A2F2656A5EFDB5C7A0BFAC5186E0493 /* AMTagView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMTagView.m; path = Source/AMTagView.m; sourceTree = "<group>"; };
+		8A9522044D0181EF35F9B4700B0687A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = RainbowNavigation/Info.plist; sourceTree = "<group>"; };
+		8AAD4FC7CCE9CB3A7C3E2845C6DED313 /* AMTagListView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMTagListView-prefix.pch"; sourceTree = "<group>"; };
+		8E4E34732FEC4A71DA9A66D13299C93D /* RainbowNavigation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RainbowNavigation.modulemap; sourceTree = "<group>"; };
+		90AC44D4F473B80978289C9E4AA9C076 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = SCLAlertView/Info.plist; sourceTree = "<group>"; };
+		90FE4D6EF32912A27B0CEA3B4033E83C /* TTGEmojiRate.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTGEmojiRate.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D4A1B3CED2939D830A2DB9A78E9F8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		985292D96F4224192040A73C182CD907 /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		9A81E6E97E343235D50BBF23C4FF6FFE /* Pods-Eatery SmileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eatery SmileTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B5B10BE2694ABBE6C2ED52318F4F59F /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		A6FF0AE3BA518D0AAD76D94B53B9234A /* AMTagListView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMTagListView.xcconfig; sourceTree = "<group>"; };
+		A77E443A232D3D499DFE93B49F6A483F /* RainbowNavigation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RainbowNavigation.swift; path = RainbowNavigation/RainbowNavigation.swift; sourceTree = "<group>"; };
+		AB24E304526124903FB62E8DE631D1E0 /* Pods-Eatery SmileTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eatery SmileTests-frameworks.sh"; sourceTree = "<group>"; };
+		B17C8F5B0166A98CA95CDACD77F2EDAE /* UIWindow+Swizzle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+Swizzle.swift"; path = "Pod/Classes/UIWindow+Swizzle.swift"; sourceTree = "<group>"; };
+		B259BFE8F72BB71FB485A3164BB0E6FE /* Pods-Eatery Smile-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Eatery Smile-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2CC2B257646843A4BCEFDD736E3A0B0 /* RainbowNavigation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RainbowNavigation-umbrella.h"; sourceTree = "<group>"; };
+		B43B60CD4D14B2D3DE8B6F42ACCFDF18 /* AMTagView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMTagView.h; path = Source/AMTagView.h; sourceTree = "<group>"; };
+		B4922E913539B43B263C66DB5DBC1773 /* Pods-Eatery Smile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Eatery Smile-dummy.m"; sourceTree = "<group>"; };
+		B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B57AD09DC42BBB6DB4695F1E5CDF08A1 /* UINavigationBar+Rainbow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationBar+Rainbow.swift"; path = "RainbowNavigation/UINavigationBar+Rainbow.swift"; sourceTree = "<group>"; };
+		B8AF4FFAF3A8C5AE5AEBCB24C77C404D /* RainbowNavigation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RainbowNavigation-prefix.pch"; sourceTree = "<group>"; };
+		B8D26BBF31002BF87A229F97542F3525 /* TTGEmojiRate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTGEmojiRate-dummy.m"; sourceTree = "<group>"; };
+		B9B71C6069C0DD4488D225718025B8F3 /* TouchVisualizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TouchVisualizer-dummy.m"; sourceTree = "<group>"; };
+		BA2A5C668C4A04A88316ECC8EBB6D8EF /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		BB7B3DD0C136CEBB79F3129452C9ACC3 /* RainbowColorSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RainbowColorSource.swift; path = RainbowNavigation/RainbowColorSource.swift; sourceTree = "<group>"; };
+		BBEE8610A703EF7A2C0DB2C4F47C50A4 /* TouchVisualizer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchVisualizer-umbrella.h"; sourceTree = "<group>"; };
+		BF96D543242B4E1069E6155CD8FDCA49 /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		C116D83E96433D3E581FE3F582F79A96 /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		C3292FB88619A591199E4420724D5DF5 /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		C356D3CEBF5FAEAD4AE4286AFBC317CF /* Pods-Eatery SmileTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Eatery SmileTests.modulemap"; sourceTree = "<group>"; };
+		C7B39781067C269B5CC4D703FF050F75 /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
+		C8F31BBB647C50A19BD7DD31CE83C307 /* Pods_Eatery_SmileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eatery_SmileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC8E9196FB1F3206D2FA50BA7EFE69C /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		CD3DE13393D97284D0226B7304076999 /* TTGEmojiRate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TTGEmojiRate.modulemap; sourceTree = "<group>"; };
+		D04A8393203C7F4C6B06C4870BE2E00A /* TTGEmojiRate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTGEmojiRate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D123743C90F0C7BB0562DBE7C8907DC5 /* M13CheckboxPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathPresets.swift; path = Sources/M13CheckboxPathPresets.swift; sourceTree = "<group>"; };
+		D9204DA774B536FD1FB93555C2BC4729 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC490DF2087E7D10072CC8621392BA5F /* RainbowNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RainbowNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2363D1F93F8A9B50AB8A45C86E78962 /* Pods-Eatery Smile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eatery Smile.release.xcconfig"; sourceTree = "<group>"; };
+		E30AF97094E10909ED811910E3019829 /* RainbowPopAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RainbowPopAnimator.swift; path = RainbowNavigation/RainbowPopAnimator.swift; sourceTree = "<group>"; };
+		E44F069C2EA786E765D4984318066875 /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
+		E56A38E012521B44C7B0CF6A8315A80C /* M13CheckboxSpiralPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralPathPresets.swift; path = Sources/Presets/M13CheckboxSpiralPathPresets.swift; sourceTree = "<group>"; };
+		E725DBAFB87A326D7D60726EE519F0B9 /* Pods-Eatery Smile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Eatery Smile-umbrella.h"; sourceTree = "<group>"; };
+		EE1349010AD186F6306124FF684447C2 /* M13CheckboxFillManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillManager.swift; path = Sources/Managers/M13CheckboxFillManager.swift; sourceTree = "<group>"; };
+		F06FFD51286AD9891A2EF93E04B82A38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2ABC84C3D7728BE77CED3BDACD111FE /* M13CheckboxStrokeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeManager.swift; path = Sources/Managers/M13CheckboxStrokeManager.swift; sourceTree = "<group>"; };
+		F83FEABAA7098629D519F703C98476F7 /* M13CheckboxExpandManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandManager.swift; path = Sources/Managers/M13CheckboxExpandManager.swift; sourceTree = "<group>"; };
+		F9546847358CE165482099BD74015EB2 /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE357677475A03AD33A5FF7CF6713E9 /* AMTagListView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMTagListView.h; path = Source/AMTagListView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58399B1798FDC7D17507985A02D94969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425E6D3816E71420E9BFC1AC3B561656 /* CoreGraphics.framework in Frameworks */,
+				AB83B753F91649BFBAAFAF8FE7BBA526 /* Foundation.framework in Frameworks */,
+				17978EDBED95F907EE4FCB70AC5EE7FB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639B8DE1E585020F93F4DD5EF3EEFC6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40649F6DB4AA1E6E2F3DA55EFEED608C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714214F09D6BEEE20FF0A6AF2F7CF75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9197FBF3F88A374357753867B494DD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7689ABEFA83C15083D33BF51AE7CB27B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8693E1460FCF0DDC45C13704C390EF6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC4D7AE6B36D5D779DD3F4A7293ECC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EA95A42371704CCEFC32ED508A7B7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67D13935989D3268E0400DC21D6E9BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C60AD5D9AEFEBC877EB477967F73E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42190F64AEF403CE4D0857093ECDB03B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A31C02255B5171876150471CE7274C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4D5E971A53361009616D4BB731CECC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8B75607D240660FE3521944B031E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954E060FD45AA3BCA6A5BDE36DF3D3CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A68FE8A6158D395EC4CB10F8472F165 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */,
+				3C9854452B704969D40D932335DEE0FF /* Foundation.framework */,
+				0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A68FE8A6158D395EC4CB10F8472F165 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FBC3863B62DBDCC10434A3C57863A0D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9204DA774B536FD1FB93555C2BC4729 /* Info.plist */,
+				82FDD957D567D5A44C5DEB542A130494 /* SCLAlertView.modulemap */,
+				9B5B10BE2694ABBE6C2ED52318F4F59F /* SCLAlertView.xcconfig */,
+				099A2B7DA4E8017A25E69EFB5A12311F /* SCLAlertView-dummy.m */,
+				84BC9DE5F6BEB136DC8E7F41A0BDAA9E /* SCLAlertView-prefix.pch */,
+				6EE513301CAE2E8A037AD9A933B7D1E2 /* SCLAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView";
+			sourceTree = "<group>";
+		};
+		2511EDDB5735C4BBAFC5956E20C43F07 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB813AC1F0BD813D40BD2CE67B89D341 /* Pods-Eatery Smile */,
+				D23A88C0E38FD44EF0F10F20C6B795A2 /* Pods-Eatery SmileTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		33B1BFF255AC71AA719C1EDDAFED3DC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				133A35A1DA40AE5655335E2C85B22017 /* AMTagListView.framework */,
+				F9546847358CE165482099BD74015EB2 /* M13Checkbox.framework */,
+				45F212BF05472A910FEFF0C44C109A1F /* Pods_Eatery_Smile.framework */,
+				C8F31BBB647C50A19BD7DD31CE83C307 /* Pods_Eatery_SmileTests.framework */,
+				DC490DF2087E7D10072CC8621392BA5F /* RainbowNavigation.framework */,
+				3D4E986EA667279D1B7ABD4EB3FE7DA8 /* SCLAlertView.framework */,
+				245604A88181A853BAAFCA2523F25FC1 /* TouchVisualizer.framework */,
+				90FE4D6EF32912A27B0CEA3B4033E83C /* TTGEmojiRate.bundle */,
+				D04A8393203C7F4C6B06C4870BE2E00A /* TTGEmojiRate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39F946AA0AF61F8EFA5F2108093F8E82 /* AMTagListView */ = {
+			isa = PBXGroup;
+			children = (
+				FDE357677475A03AD33A5FF7CF6713E9 /* AMTagListView.h */,
+				4CAB82E8D1566B126D76B89E2055B501 /* AMTagListView.m */,
+				B43B60CD4D14B2D3DE8B6F42ACCFDF18 /* AMTagView.h */,
+				8A2F2656A5EFDB5C7A0BFAC5186E0493 /* AMTagView.m */,
+				C9D40FD09E3F18C2760DBD23CCD00613 /* Support Files */,
+			);
+			path = AMTagListView;
+			sourceTree = "<group>";
+		};
+		46451A1DF041EC35233606F89516F95F /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				BF96D543242B4E1069E6155CD8FDCA49 /* M13Checkbox.swift */,
+				CAC8E9196FB1F3206D2FA50BA7EFE69C /* M13Checkbox+IB.swift */,
+				22AD3D4852D7F7617069AAF79A2BFE63 /* M13CheckboxAnimationPresets.swift */,
+				23B079DA3ADE2FF00D4D6376643247FF /* M13CheckboxBounceManager.swift */,
+				57959ED456BB8001B385573EB8566BDE /* M13CheckboxDotManager.swift */,
+				847E092ED90BBB8A96603FBBD4AA7D45 /* M13CheckboxDotPathPresets.swift */,
+				F83FEABAA7098629D519F703C98476F7 /* M13CheckboxExpandManager.swift */,
+				1F1B580BA840F12F0B16DAE23FB5D457 /* M13CheckboxFadeManager.swift */,
+				EE1349010AD186F6306124FF684447C2 /* M13CheckboxFillManager.swift */,
+				6544DA4A03F7576B800D7F877903E4CC /* M13CheckboxFlatManager.swift */,
+				C3292FB88619A591199E4420724D5DF5 /* M13CheckboxGestureRecognizer.swift */,
+				7BC896A0DF5FAE8E96F1A2A931CA1781 /* M13CheckboxManager.swift */,
+				D123743C90F0C7BB0562DBE7C8907DC5 /* M13CheckboxPathPresets.swift */,
+				4FC0F3B707765FFD8EBCD8BB3B72B193 /* M13CheckboxSpiralManager.swift */,
+				E56A38E012521B44C7B0CF6A8315A80C /* M13CheckboxSpiralPathPresets.swift */,
+				F2ABC84C3D7728BE77CED3BDACD111FE /* M13CheckboxStrokeManager.swift */,
+				F0CE6893999C3B9B3FB8D5E224AE16EE /* Support Files */,
+			);
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		78E46AC9B837F630327DAFB28BC327A4 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				90AC44D4F473B80978289C9E4AA9C076 /* Info.plist */,
+				E44F069C2EA786E765D4984318066875 /* SCLAlertView.swift */,
+				6E567E5259FBBBFA730E5C625C29C1AB /* SCLExtensions.swift */,
+				1FBC3863B62DBDCC10434A3C57863A0D /* Support Files */,
+			);
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				E53E27B6C609C319DB7C6C724DA5B053 /* Pods */,
+				33B1BFF255AC71AA719C1EDDAFED3DC4 /* Products */,
+				2511EDDB5735C4BBAFC5956E20C43F07 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		809116368070378AA5708CF09B3B1755 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92D4A1B3CED2939D830A2DB9A78E9F8F /* Info.plist */,
+				8E4E34732FEC4A71DA9A66D13299C93D /* RainbowNavigation.modulemap */,
+				12317087ACE1E462DA03728CEE78EC3E /* RainbowNavigation.xcconfig */,
+				3AE8B2814E355403161A5C166C4CEFB8 /* RainbowNavigation-dummy.m */,
+				B8AF4FFAF3A8C5AE5AEBCB24C77C404D /* RainbowNavigation-prefix.pch */,
+				B2CC2B257646843A4BCEFDD736E3A0B0 /* RainbowNavigation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RainbowNavigation";
+			sourceTree = "<group>";
+		};
+		870C75BF6920424CB9C48417D0E226A7 /* RainbowNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				8A9522044D0181EF35F9B4700B0687A7 /* Info.plist */,
+				BB7B3DD0C136CEBB79F3129452C9ACC3 /* RainbowColorSource.swift */,
+				37AB6523AA8E21AB0BAC050D5C5D3258 /* RainbowDragPop.swift */,
+				810E4FCD594F436AED83D63164DDBF50 /* RainbowNavigation.h */,
+				A77E443A232D3D499DFE93B49F6A483F /* RainbowNavigation.swift */,
+				E30AF97094E10909ED811910E3019829 /* RainbowPopAnimator.swift */,
+				5AF34457247948557C4640B3B77AC396 /* RainbowPushAnimator.swift */,
+				B57AD09DC42BBB6DB4695F1E5CDF08A1 /* UINavigationBar+Rainbow.swift */,
+				809116368070378AA5708CF09B3B1755 /* Support Files */,
+			);
+			path = RainbowNavigation;
+			sourceTree = "<group>";
+		};
+		87983EBFAED956E6B9B9C77340D25714 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5190E79047B5B394BE10CC127A5A75DD /* Info.plist */,
+				42C7AB6D828B2AF048C6AE5630962311 /* TouchVisualizer.modulemap */,
+				755490053C752B2982E659B498BCC1DA /* TouchVisualizer.xcconfig */,
+				B9B71C6069C0DD4488D225718025B8F3 /* TouchVisualizer-dummy.m */,
+				771038A8C7537EE7A17D18F0B3377C8C /* TouchVisualizer-prefix.pch */,
+				BBEE8610A703EF7A2C0DB2C4F47C50A4 /* TouchVisualizer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TouchVisualizer";
+			sourceTree = "<group>";
+		};
+		B8F416270C4A030CCBCB3F61CB7DF6B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F06FFD51286AD9891A2EF93E04B82A38 /* Info.plist */,
+				55672136507D0B2BABFEFE9AF1F92D4D /* ResourceBundle-TTGEmojiRate-Info.plist */,
+				CD3DE13393D97284D0226B7304076999 /* TTGEmojiRate.modulemap */,
+				30252C5E587C950B5D35848E83971713 /* TTGEmojiRate.xcconfig */,
+				B8D26BBF31002BF87A229F97542F3525 /* TTGEmojiRate-dummy.m */,
+				562CFB4B69AB65FF993C1B4A9C837085 /* TTGEmojiRate-prefix.pch */,
+				3732E79D7EB60FFA6F1F63C64C267961 /* TTGEmojiRate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TTGEmojiRate";
+			sourceTree = "<group>";
+		};
+		C9D40FD09E3F18C2760DBD23CCD00613 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32C366B470F3035C9F982185130F5E4A /* AMTagListView.modulemap */,
+				A6FF0AE3BA518D0AAD76D94B53B9234A /* AMTagListView.xcconfig */,
+				2A4B32A282737D8CFA125E9D66D4B7FC /* AMTagListView-dummy.m */,
+				8AAD4FC7CCE9CB3A7C3E2845C6DED313 /* AMTagListView-prefix.pch */,
+				47384F165D92208DA370D85FDA701C13 /* AMTagListView-umbrella.h */,
+				21A2D775574AC67833A3ACD10658F978 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMTagListView";
+			sourceTree = "<group>";
+		};
+		CF8E78309E6836B66CC365113DBE87CF /* TouchVisualizer */ = {
+			isa = PBXGroup;
+			children = (
+				55113383FA4F27E246BB7BACA8C0E465 /* Configuration.swift */,
+				158168FF46EA0383C81899C69794EC63 /* TouchView.swift */,
+				B17C8F5B0166A98CA95CDACD77F2EDAE /* UIWindow+Swizzle.swift */,
+				2F8D97EF4EA916AF1F6ECD16C5977911 /* Visualizer.swift */,
+				87983EBFAED956E6B9B9C77340D25714 /* Support Files */,
+			);
+			path = TouchVisualizer;
+			sourceTree = "<group>";
+		};
+		D23A88C0E38FD44EF0F10F20C6B795A2 /* Pods-Eatery SmileTests */ = {
+			isa = PBXGroup;
+			children = (
+				675D6A16D70D8BEE3FBDBF4E74D5C097 /* Info.plist */,
+				C356D3CEBF5FAEAD4AE4286AFBC317CF /* Pods-Eatery SmileTests.modulemap */,
+				80F7FE6946B115642BE2278250A6FBA4 /* Pods-Eatery SmileTests-acknowledgements.markdown */,
+				4CA8B52FEFE8F4DEE68F7105504BE7B2 /* Pods-Eatery SmileTests-acknowledgements.plist */,
+				17FC90EE85082FA066B80BD853B25B4B /* Pods-Eatery SmileTests-dummy.m */,
+				AB24E304526124903FB62E8DE631D1E0 /* Pods-Eatery SmileTests-frameworks.sh */,
+				094605EE140FAB8B8E94C1427C3AC197 /* Pods-Eatery SmileTests-resources.sh */,
+				3C0559E384AF243BC1ABD722708B9EBC /* Pods-Eatery SmileTests-umbrella.h */,
+				827E2B2845F62C84FF68592EBD89A381 /* Pods-Eatery SmileTests.debug.xcconfig */,
+				9A81E6E97E343235D50BBF23C4FF6FFE /* Pods-Eatery SmileTests.release.xcconfig */,
+			);
+			name = "Pods-Eatery SmileTests";
+			path = "Target Support Files/Pods-Eatery SmileTests";
+			sourceTree = "<group>";
+		};
+		DB813AC1F0BD813D40BD2CE67B89D341 /* Pods-Eatery Smile */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C4133443611A3D8C95B99AEF32F01 /* Info.plist */,
+				72A87E6FA46C356BE0BA4C7FE11E730C /* Pods-Eatery Smile.modulemap */,
+				B259BFE8F72BB71FB485A3164BB0E6FE /* Pods-Eatery Smile-acknowledgements.markdown */,
+				4DD87FDF9D005A297173A01F534D6DA3 /* Pods-Eatery Smile-acknowledgements.plist */,
+				B4922E913539B43B263C66DB5DBC1773 /* Pods-Eatery Smile-dummy.m */,
+				624FA081735187CB2653E992A23CB8A6 /* Pods-Eatery Smile-frameworks.sh */,
+				5ED70155AA73BF79791E711DAED7B8F5 /* Pods-Eatery Smile-resources.sh */,
+				E725DBAFB87A326D7D60726EE519F0B9 /* Pods-Eatery Smile-umbrella.h */,
+				6E86312B82BE61107C2D69430C8F6EB5 /* Pods-Eatery Smile.debug.xcconfig */,
+				E2363D1F93F8A9B50AB8A45C86E78962 /* Pods-Eatery Smile.release.xcconfig */,
+			);
+			name = "Pods-Eatery Smile";
+			path = "Target Support Files/Pods-Eatery Smile";
+			sourceTree = "<group>";
+		};
+		E2B758F7C141B71B389E06F4A9F90AB5 /* TTGEmojiRate */ = {
+			isa = PBXGroup;
+			children = (
+				70C987ADEF318A9E88DD05C369C30E42 /* EmojiRateView.swift */,
+				3445788487E5A2FDBD10E1BDA906607A /* TTGEmojiRate.h */,
+				B8F416270C4A030CCBCB3F61CB7DF6B0 /* Support Files */,
+			);
+			path = TTGEmojiRate;
+			sourceTree = "<group>";
+		};
+		E53E27B6C609C319DB7C6C724DA5B053 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39F946AA0AF61F8EFA5F2108093F8E82 /* AMTagListView */,
+				46451A1DF041EC35233606F89516F95F /* M13Checkbox */,
+				870C75BF6920424CB9C48417D0E226A7 /* RainbowNavigation */,
+				78E46AC9B837F630327DAFB28BC327A4 /* SCLAlertView */,
+				CF8E78309E6836B66CC365113DBE87CF /* TouchVisualizer */,
+				E2B758F7C141B71B389E06F4A9F90AB5 /* TTGEmojiRate */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0CE6893999C3B9B3FB8D5E224AE16EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				022C1CD802D8BEAA73A2DCBE1F4016B6 /* Info.plist */,
+				BA2A5C668C4A04A88316ECC8EBB6D8EF /* M13Checkbox.modulemap */,
+				C7B39781067C269B5CC4D703FF050F75 /* M13Checkbox.xcconfig */,
+				4CCB86FE2ABD4F7A4BB7D76BABB2BC6C /* M13Checkbox-dummy.m */,
+				C116D83E96433D3E581FE3F582F79A96 /* M13Checkbox-prefix.pch */,
+				985292D96F4224192040A73C182CD907 /* M13Checkbox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		227E3CBCC55A04FCCD8C019832A11234 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF82975857F88C2BCC8C5CABDADD06A2 /* M13Checkbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352A6CE854F9795E3BC3C08D24EFE47E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5911EFAA4B0F183E82049962D2DB6808 /* TouchVisualizer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AC76169012DC69BE85B3FFC6ACEA21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909D451E973DB2B59C0C4BC354CE4255 /* SCLAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82AE11034D15BAFF419299E8A79CDCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92203B1D874F46D72F59C3F63AAD368 /* RainbowNavigation-umbrella.h in Headers */,
+				BFE8F1F59B6DA0112CB12419EF5D45A0 /* RainbowNavigation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E35B51FF76615AB27EF360B5E74213 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB376CC532127F6FE26AAF6E895A581 /* Pods-Eatery SmileTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D03FD6B94EAD6AAB0A38B997B68CDE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019916680C1A19D9BC92A5411A6A358E /* AMTagListView-umbrella.h in Headers */,
+				A8BA01DF5817C77025379C44896FCE85 /* AMTagListView.h in Headers */,
+				77BEF1CFB06B83C1BF25D1A0C5822D12 /* AMTagView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18622C6DB49249DCA9D8F520D432BEE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92C0861BEEDB55D7E4163DAF858689E /* TTGEmojiRate-umbrella.h in Headers */,
+				667AA4212998EA72D814A0B22EAAF260 /* TTGEmojiRate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD8428E6193060F5E8EBCF78935DEA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C8A1EECDE386F10D607F57FE1C68E3 /* Pods-Eatery Smile-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3090449D99F2E52F2111BAB826DD4812 /* SCLAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B00A6BFF80681F305E4D4D99BE79AA /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
+			buildPhases = (
+				36CECA4A0A0A75E0114110DA2574179E /* Sources */,
+				7689ABEFA83C15083D33BF51AE7CB27B /* Frameworks */,
+				76AC76169012DC69BE85B3FFC6ACEA21 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCLAlertView;
+			productName = SCLAlertView;
+			productReference = 3D4E986EA667279D1B7ABD4EB3FE7DA8 /* SCLAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		35F5A4A6B702FC5C62E0A76D67F3B6B3 /* AMTagListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0177421353D6B453DFB57BF15E31038E /* Build configuration list for PBXNativeTarget "AMTagListView" */;
+			buildPhases = (
+				9DBCC1F3447B949DB4BCBE73850BF3FC /* Sources */,
+				639B8DE1E585020F93F4DD5EF3EEFC6A /* Frameworks */,
+				D5D03FD6B94EAD6AAB0A38B997B68CDE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMTagListView;
+			productName = AMTagListView;
+			productReference = 133A35A1DA40AE5655335E2C85B22017 /* AMTagListView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		480ADD1F8294596474DDD8CAA105A67C /* TouchVisualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD92FDCCBFEF9AA784A5575F5F15751 /* Build configuration list for PBXNativeTarget "TouchVisualizer" */;
+			buildPhases = (
+				903207DBC352F103C88ACC32FEF64DC9 /* Sources */,
+				714214F09D6BEEE20FF0A6AF2F7CF75C /* Frameworks */,
+				352A6CE854F9795E3BC3C08D24EFE47E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchVisualizer;
+			productName = TouchVisualizer;
+			productReference = 245604A88181A853BAAFCA2523F25FC1 /* TouchVisualizer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		524EB80EB3696C952C76CDE20BC67D20 /* RainbowNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30BCB608946BE9A8E97714E94E4868FF /* Build configuration list for PBXNativeTarget "RainbowNavigation" */;
+			buildPhases = (
+				3F1A01C22FF2B4D8BB8C8F02E3B3A086 /* Sources */,
+				EB8B75607D240660FE3521944B031E62 /* Frameworks */,
+				B82AE11034D15BAFF419299E8A79CDCD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainbowNavigation;
+			productName = RainbowNavigation;
+			productReference = DC490DF2087E7D10072CC8621392BA5F /* RainbowNavigation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57A37C8AC4175C995A68C833107FF89F /* TTGEmojiRate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 692F837B463509EEB09C0781BD7AE7BD /* Build configuration list for PBXNativeTarget "TTGEmojiRate" */;
+			buildPhases = (
+				B7DBA9B736F3F4E981EE595DBAAB370A /* Sources */,
+				A2C60AD5D9AEFEBC877EB477967F73E8 /* Frameworks */,
+				907F4BCD67174231F7F312DD5365C0FD /* Resources */,
+				E18622C6DB49249DCA9D8F520D432BEE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0370901793A766E7AA32C0390E6A71A3 /* PBXTargetDependency */,
+			);
+			name = TTGEmojiRate;
+			productName = TTGEmojiRate;
+			productReference = D04A8393203C7F4C6B06C4870BE2E00A /* TTGEmojiRate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84B23CA6560DE427992194BF9D5F1406 /* Pods-Eatery SmileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E56A8A3A7342E4ED61A5D1AA5F2F0E4C /* Build configuration list for PBXNativeTarget "Pods-Eatery SmileTests" */;
+			buildPhases = (
+				D0A121C544C68A326ACF529710D9437D /* Sources */,
+				90EA95A42371704CCEFC32ED508A7B7D /* Frameworks */,
+				D0E35B51FF76615AB27EF360B5E74213 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Eatery SmileTests";
+			productName = "Pods-Eatery SmileTests";
+			productReference = C8F31BBB647C50A19BD7DD31CE83C307 /* Pods_Eatery_SmileTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8C2D9B074FEA932AFFF3764A24DD9F6 /* Pods-Eatery Smile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2184C8C51E33E77B0ED0D6D767868809 /* Build configuration list for PBXNativeTarget "Pods-Eatery Smile" */;
+			buildPhases = (
+				F2759F559CC72CC60A5F0380F2BC3482 /* Sources */,
+				C5A31C02255B5171876150471CE7274C /* Frameworks */,
+				EFD8428E6193060F5E8EBCF78935DEA7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50833A1C19F23E042A7E4B3C070D021C /* PBXTargetDependency */,
+				D290D64BAD85995E6641A5F0E36667E8 /* PBXTargetDependency */,
+				967CBC4CDEA7F55676FD639C95523AA9 /* PBXTargetDependency */,
+				A547C6E829CFF35CD74B5D063FDDAC35 /* PBXTargetDependency */,
+				FA121DBC0B81785CB44B8666DD5A9502 /* PBXTargetDependency */,
+				223B3CD5FAF9B2393D26914DCFB81513 /* PBXTargetDependency */,
+			);
+			name = "Pods-Eatery Smile";
+			productName = "Pods-Eatery Smile";
+			productReference = 45F212BF05472A910FEFF0C44C109A1F /* Pods_Eatery_Smile.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF7A19711579C66E26EE8204523EA20D /* TTGEmojiRate-TTGEmojiRate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22EA73EAC77532CD9A0E407B09ADD0E /* Build configuration list for PBXNativeTarget "TTGEmojiRate-TTGEmojiRate" */;
+			buildPhases = (
+				9962CD1F94CB85914EC87797785DE6FE /* Sources */,
+				8FC4D7AE6B36D5D779DD3F4A7293ECC9 /* Frameworks */,
+				5ABB346D6596D1F5D9E2465365322247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TTGEmojiRate-TTGEmojiRate";
+			productName = "TTGEmojiRate-TTGEmojiRate";
+			productReference = 90FE4D6EF32912A27B0CEA3B4033E83C /* TTGEmojiRate.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		ED3AFC0E9905CA362D94DA496A23E2DD /* M13Checkbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB7EEF73FAC4784FB37CAC86AD636EC /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
+			buildPhases = (
+				543C4BC81F4224D82B158B6D814B8FA1 /* Sources */,
+				58399B1798FDC7D17507985A02D94969 /* Frameworks */,
+				227E3CBCC55A04FCCD8C019832A11234 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M13Checkbox;
+			productName = M13Checkbox;
+			productReference = F9546847358CE165482099BD74015EB2 /* M13Checkbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 33B1BFF255AC71AA719C1EDDAFED3DC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35F5A4A6B702FC5C62E0A76D67F3B6B3 /* AMTagListView */,
+				ED3AFC0E9905CA362D94DA496A23E2DD /* M13Checkbox */,
+				A8C2D9B074FEA932AFFF3764A24DD9F6 /* Pods-Eatery Smile */,
+				84B23CA6560DE427992194BF9D5F1406 /* Pods-Eatery SmileTests */,
+				524EB80EB3696C952C76CDE20BC67D20 /* RainbowNavigation */,
+				3090449D99F2E52F2111BAB826DD4812 /* SCLAlertView */,
+				480ADD1F8294596474DDD8CAA105A67C /* TouchVisualizer */,
+				57A37C8AC4175C995A68C833107FF89F /* TTGEmojiRate */,
+				CF7A19711579C66E26EE8204523EA20D /* TTGEmojiRate-TTGEmojiRate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ABB346D6596D1F5D9E2465365322247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907F4BCD67174231F7F312DD5365C0FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA00C7AD139C0083C8D549AF7D79B035 /* TTGEmojiRate.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36CECA4A0A0A75E0114110DA2574179E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF20912B2752CAB2E939765918C392F /* Info.plist in Sources */,
+				98857E9046E7C06357B43097B9DFFF9D /* SCLAlertView-dummy.m in Sources */,
+				34934E52C676AD1DD0DD011C7099BE42 /* SCLAlertView.swift in Sources */,
+				D7E72B50AFFE8AFC9DDD470D7CBAA243 /* SCLExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1A01C22FF2B4D8BB8C8F02E3B3A086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC20FD1A104D5755246B07AC45FA916 /* Info.plist in Sources */,
+				2C924D1F9793D606C116C79DD8DAEF12 /* RainbowColorSource.swift in Sources */,
+				FE195DE6BAEB02479F6518A74BBE0720 /* RainbowDragPop.swift in Sources */,
+				23D87794A0115C9203092AAD47A67DE2 /* RainbowNavigation-dummy.m in Sources */,
+				B9EDEEF2823826E8D5DF8F67C10FA3E0 /* RainbowNavigation.swift in Sources */,
+				07B7E253A4B1A4090495C96C03CADB2F /* RainbowPopAnimator.swift in Sources */,
+				903EF4CCBFF058790312550AED38257E /* RainbowPushAnimator.swift in Sources */,
+				B332D15829C4647F9F9BE8B0405C1650 /* UINavigationBar+Rainbow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543C4BC81F4224D82B158B6D814B8FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1614233200F77EEC7A5AEEB73F97FD04 /* M13Checkbox+IB.swift in Sources */,
+				2161CB44569782E42E45439692FBE3ED /* M13Checkbox-dummy.m in Sources */,
+				8002901EEAC6026FB9EA6777BC8B1C0D /* M13Checkbox.swift in Sources */,
+				7A6D04E6391AB243F35BAE217FF6F81D /* M13CheckboxAnimationPresets.swift in Sources */,
+				89746AFED1601736D8E1F149AABD1A40 /* M13CheckboxBounceManager.swift in Sources */,
+				F44047DF453E3DCEE6C2D09BC695AB39 /* M13CheckboxDotManager.swift in Sources */,
+				305133BCAA8380E5E6E9AF4FE3AEB087 /* M13CheckboxDotPathPresets.swift in Sources */,
+				84E341BC8535DD01582617F2C0DA35BD /* M13CheckboxExpandManager.swift in Sources */,
+				BC3B9E7AFBEDC160E284B9DE85BBC0FF /* M13CheckboxFadeManager.swift in Sources */,
+				096EFF0F52924F21FDCB53AB634268BB /* M13CheckboxFillManager.swift in Sources */,
+				F31B4CB5FED9CA97A27BD9EA00E2AFB7 /* M13CheckboxFlatManager.swift in Sources */,
+				036F34CEEB075B4967E66B39F30F0770 /* M13CheckboxGestureRecognizer.swift in Sources */,
+				3391A826E404FE0E7CE9C7691AD35D85 /* M13CheckboxManager.swift in Sources */,
+				4E99830DDC4A9A73AFEFBAC6A631CFF9 /* M13CheckboxPathPresets.swift in Sources */,
+				2D39AFF4DCB31D402488B07909551F55 /* M13CheckboxSpiralManager.swift in Sources */,
+				928EBAF19E6D4739410ACCC4DE0249F5 /* M13CheckboxSpiralPathPresets.swift in Sources */,
+				CD7C552ACD6156D56AE4BE1F228CD688 /* M13CheckboxStrokeManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903207DBC352F103C88ACC32FEF64DC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA086DC8E14E7559854B3387AF2EFB98 /* Configuration.swift in Sources */,
+				E56E0301F92BC41BEC3C4A4905A5008F /* TouchView.swift in Sources */,
+				98073910D68EF04313202A5311C94864 /* TouchVisualizer-dummy.m in Sources */,
+				4DAE6D045781713B20E62D31816ADFFA /* UIWindow+Swizzle.swift in Sources */,
+				E0D9A89F8228090F5547FD5951DBAB68 /* Visualizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9962CD1F94CB85914EC87797785DE6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DBCC1F3447B949DB4BCBE73850BF3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94A10D56FC424B25056D629AEBE7E00 /* AMTagListView-dummy.m in Sources */,
+				61D57076AF4FD3AAC8FD0E3760B38613 /* AMTagListView.m in Sources */,
+				888AD659FB3EE27273489249519FF4E1 /* AMTagView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DBA9B736F3F4E981EE595DBAAB370A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C2681B2694F3BDFE5FAD03D3580605 /* EmojiRateView.swift in Sources */,
+				01355044C2EA0F711696F4FF4957EC88 /* TTGEmojiRate-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A121C544C68A326ACF529710D9437D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9A421EED3440FF929A48E233A28248 /* Pods-Eatery SmileTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2759F559CC72CC60A5F0380F2BC3482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A3A4DA1D804A0CF27A24911B1309084 /* Pods-Eatery Smile-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0370901793A766E7AA32C0390E6A71A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TTGEmojiRate-TTGEmojiRate";
+			target = CF7A19711579C66E26EE8204523EA20D /* TTGEmojiRate-TTGEmojiRate */;
+			targetProxy = FFB56ED83DB01085680AD639E65910EF /* PBXContainerItemProxy */;
+		};
+		223B3CD5FAF9B2393D26914DCFB81513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TouchVisualizer;
+			target = 480ADD1F8294596474DDD8CAA105A67C /* TouchVisualizer */;
+			targetProxy = 75E5656EAA5FED4526B8416C9841B5D6 /* PBXContainerItemProxy */;
+		};
+		50833A1C19F23E042A7E4B3C070D021C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMTagListView;
+			target = 35F5A4A6B702FC5C62E0A76D67F3B6B3 /* AMTagListView */;
+			targetProxy = D70DEC9EFB9D4A1599581DD3261F8D15 /* PBXContainerItemProxy */;
+		};
+		967CBC4CDEA7F55676FD639C95523AA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RainbowNavigation;
+			target = 524EB80EB3696C952C76CDE20BC67D20 /* RainbowNavigation */;
+			targetProxy = 9BCC90A8BB94E7E3C70F7F97D2387660 /* PBXContainerItemProxy */;
+		};
+		A547C6E829CFF35CD74B5D063FDDAC35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCLAlertView;
+			target = 3090449D99F2E52F2111BAB826DD4812 /* SCLAlertView */;
+			targetProxy = FC063B40D11A6077487D1FC3A2B2E7DB /* PBXContainerItemProxy */;
+		};
+		D290D64BAD85995E6641A5F0E36667E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = ED3AFC0E9905CA362D94DA496A23E2DD /* M13Checkbox */;
+			targetProxy = 5BF7550D24CEEDAE7C7D0D86B4D1AF89 /* PBXContainerItemProxy */;
+		};
+		FA121DBC0B81785CB44B8666DD5A9502 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTGEmojiRate;
+			target = 57A37C8AC4175C995A68C833107FF89F /* TTGEmojiRate */;
+			targetProxy = 6F42B4D4C6BB9032EC3C9D794C836811 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1D3B32EF3F82284EB84F0D45624A3A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FF0AE3BA518D0AAD76D94B53B9234A /* AMTagListView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AMTagListView/AMTagListView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMTagListView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMTagListView/AMTagListView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AMTagListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21A87068C5EDAE5FFAB694A16B9758D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30252C5E587C950B5D35848E83971713 /* TTGEmojiRate.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTGEmojiRate/TTGEmojiRate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTGEmojiRate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTGEmojiRate/TTGEmojiRate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TTGEmojiRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C13E9BBC28805DEFB14D8A8F06BE6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FF0AE3BA518D0AAD76D94B53B9234A /* AMTagListView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AMTagListView/AMTagListView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMTagListView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMTagListView/AMTagListView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AMTagListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		540E6F64C2D71D4CC32F7029920A47CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B39781067C269B5CC4D703FF050F75 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5818CAEC68D62083BFF0AA57DD40A48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A81E6E97E343235D50BBF23C4FF6FFE /* Pods-Eatery SmileTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Eatery SmileTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Eatery SmileTests/Pods-Eatery SmileTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Eatery_SmileTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7248F33125F344BF9A69EDEADDCB573F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12317087ACE1E462DA03728CEE78EC3E /* RainbowNavigation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RainbowNavigation/RainbowNavigation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RainbowNavigation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RainbowNavigation/RainbowNavigation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RainbowNavigation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CDF74A165AC7D94023C32F5D397EDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B5B10BE2694ABBE6C2ED52318F4F59F /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D3E4A68CF74EB6AA054EDD515289941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B39781067C269B5CC4D703FF050F75 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E74D4F0E49D859CAA1172139E473A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755490053C752B2982E659B498BCC1DA /* TouchVisualizer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TouchVisualizer/TouchVisualizer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TouchVisualizer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TouchVisualizer/TouchVisualizer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TouchVisualizer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAA6C9797522CAEEDA6EDC95AAC4E29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B5B10BE2694ABBE6C2ED52318F4F59F /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BABD0D200F91A224B19A9CEBA7CDFB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12317087ACE1E462DA03728CEE78EC3E /* RainbowNavigation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RainbowNavigation/RainbowNavigation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RainbowNavigation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RainbowNavigation/RainbowNavigation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RainbowNavigation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCA443CF7A71134D677A769C207D8BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30252C5E587C950B5D35848E83971713 /* TTGEmojiRate.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TTGEmojiRate";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TTGEmojiRate/ResourceBundle-TTGEmojiRate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TTGEmojiRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C75F6157C97722947260B749B3631D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E86312B82BE61107C2D69430C8F6EB5 /* Pods-Eatery Smile.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Eatery Smile/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Eatery Smile/Pods-Eatery Smile.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Eatery_Smile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6281969F79E6BF01F63EDFA8E65B456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2363D1F93F8A9B50AB8A45C86E78962 /* Pods-Eatery Smile.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Eatery Smile/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Eatery Smile/Pods-Eatery Smile.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Eatery_Smile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DCBDD82B03D1605C656D81CC11E3078A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755490053C752B2982E659B498BCC1DA /* TouchVisualizer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TouchVisualizer/TouchVisualizer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TouchVisualizer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TouchVisualizer/TouchVisualizer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TouchVisualizer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DED19783FC7FBD3522BC590013F4B55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30252C5E587C950B5D35848E83971713 /* TTGEmojiRate.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTGEmojiRate/TTGEmojiRate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTGEmojiRate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTGEmojiRate/TTGEmojiRate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TTGEmojiRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF35A8911D11D25D8A5B746C110316CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30252C5E587C950B5D35848E83971713 /* TTGEmojiRate.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TTGEmojiRate";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TTGEmojiRate/ResourceBundle-TTGEmojiRate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TTGEmojiRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F090EC8D2A08CD25037BE7032EAA3AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827E2B2845F62C84FF68592EBD89A381 /* Pods-Eatery SmileTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Eatery SmileTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Eatery SmileTests/Pods-Eatery SmileTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Eatery_SmileTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0177421353D6B453DFB57BF15E31038E /* Build configuration list for PBXNativeTarget "AMTagListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3B32EF3F82284EB84F0D45624A3A84 /* Debug */,
+				3C13E9BBC28805DEFB14D8A8F06BE6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2184C8C51E33E77B0ED0D6D767868809 /* Build configuration list for PBXNativeTarget "Pods-Eatery Smile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75F6157C97722947260B749B3631D25 /* Debug */,
+				D6281969F79E6BF01F63EDFA8E65B456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30BCB608946BE9A8E97714E94E4868FF /* Build configuration list for PBXNativeTarget "RainbowNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7248F33125F344BF9A69EDEADDCB573F /* Debug */,
+				BABD0D200F91A224B19A9CEBA7CDFB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B00A6BFF80681F305E4D4D99BE79AA /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDF74A165AC7D94023C32F5D397EDEC /* Debug */,
+				AAA6C9797522CAEEDA6EDC95AAC4E29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		692F837B463509EEB09C0781BD7AE7BD /* Build configuration list for PBXNativeTarget "TTGEmojiRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED19783FC7FBD3522BC590013F4B55F /* Debug */,
+				21A87068C5EDAE5FFAB694A16B9758D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB7EEF73FAC4784FB37CAC86AD636EC /* Build configuration list for PBXNativeTarget "M13Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540E6F64C2D71D4CC32F7029920A47CF /* Debug */,
+				8D3E4A68CF74EB6AA054EDD515289941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22EA73EAC77532CD9A0E407B09ADD0E /* Build configuration list for PBXNativeTarget "TTGEmojiRate-TTGEmojiRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF35A8911D11D25D8A5B746C110316CA /* Debug */,
+				BCA443CF7A71134D677A769C207D8BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E56A8A3A7342E4ED61A5D1AA5F2F0E4C /* Build configuration list for PBXNativeTarget "Pods-Eatery SmileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F090EC8D2A08CD25037BE7032EAA3AF2 /* Debug */,
+				5818CAEC68D62083BFF0AA57DD40A48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD92FDCCBFEF9AA784A5575F5F15751 /* Build configuration list for PBXNativeTarget "TouchVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E74D4F0E49D859CAA1172139E473A51 /* Debug */,
+				DCBDD82B03D1605C656D81CC11E3078A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

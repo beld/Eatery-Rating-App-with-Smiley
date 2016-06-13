@@ -1,0 +1,6 @@
+framework module Pods_Eatery_SmileTests {
+  umbrella header "Pods-Eatery SmileTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
