@@ -15,10 +15,6 @@
 		350BE6551CEDDF1100EE755B /* UserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350BE6521CEDDF1100EE755B /* UserListTableViewCell.swift */; };
 		353C15021C9E878E007FFF4E /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C15011C9E878E007FFF4E /* FloatRatingView.swift */; };
 		3569BA2B1CEF4C070065B376 /* EmojiRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3569BA2A1CEF4C070065B376 /* EmojiRatingViewController.swift */; };
-		35B49FDA1D0EF39300DBE6F6 /* MenuFoldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B49FD61D0EF39300DBE6F6 /* MenuFoldViewController.swift */; };
-		35B49FDB1D0EF39300DBE6F6 /* MenuFoldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35B49FD71D0EF39300DBE6F6 /* MenuFoldViewController.xib */; };
-		35B49FDC1D0EF39300DBE6F6 /* MenuItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B49FD81D0EF39300DBE6F6 /* MenuItemTableViewCell.swift */; };
-		35B49FDD1D0EF39300DBE6F6 /* MenuItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35B49FD91D0EF39300DBE6F6 /* MenuItemTableViewCell.xib */; };
 		35D446F61CC2C19F00649B5B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D446F51CC2C19F00649B5B /* CircleView.swift */; };
 		35F3B3281D00CF39003F2742 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3B3271D00CF39003F2742 /* GradientView.m */; };
 		35F3B32D1D00CF5E003F2742 /* JSAnimatedImagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3B32A1D00CF5E003F2742 /* JSAnimatedImagesView.m */; };
@@ -59,10 +55,6 @@
 		350BE6521CEDDF1100EE755B /* UserListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListTableViewCell.swift; sourceTree = "<group>"; };
 		353C15011C9E878E007FFF4E /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
 		3569BA2A1CEF4C070065B376 /* EmojiRatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiRatingViewController.swift; sourceTree = "<group>"; };
-		35B49FD61D0EF39300DBE6F6 /* MenuFoldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuFoldViewController.swift; sourceTree = "<group>"; };
-		35B49FD71D0EF39300DBE6F6 /* MenuFoldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuFoldViewController.xib; sourceTree = "<group>"; };
-		35B49FD81D0EF39300DBE6F6 /* MenuItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemTableViewCell.swift; sourceTree = "<group>"; };
-		35B49FD91D0EF39300DBE6F6 /* MenuItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuItemTableViewCell.xib; sourceTree = "<group>"; };
 		35D446F51CC2C19F00649B5B /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		35F3B3251D00CF38003F2742 /* Eatery Smile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Eatery Smile-Bridging-Header.h"; sourceTree = "<group>"; };
 		35F3B3261D00CF39003F2742 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
@@ -113,17 +105,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		35B49FDE1D0EF39C00DBE6F6 /* FoldableTableView */ = {
-			isa = PBXGroup;
-			children = (
-				35B49FD61D0EF39300DBE6F6 /* MenuFoldViewController.swift */,
-				35B49FD71D0EF39300DBE6F6 /* MenuFoldViewController.xib */,
-				35B49FD81D0EF39300DBE6F6 /* MenuItemTableViewCell.swift */,
-				35B49FD91D0EF39300DBE6F6 /* MenuItemTableViewCell.xib */,
-			);
-			name = FoldableTableView;
-			sourceTree = "<group>";
-		};
 		35F3B31B1D00CA49003F2742 /* MealViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,7 +232,6 @@
 				CA1902DF1B10E523000271C4 /* AppDelegate.swift */,
 				CA96F92A1B1144F7000CC7F8 /* Assets.xcassets */,
 				CA1902E31B10E523000271C4 /* Main.storyboard */,
-				35B49FDE1D0EF39C00DBE6F6 /* FoldableTableView */,
 				35F3B31C1D00CA65003F2742 /* MealTableController */,
 				35F3B31F1D00CCFD003F2742 /* UserListTableController */,
 				35F3B3201D00CD41003F2742 /* EmojiViewController */,
@@ -371,10 +351,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B49FDB1D0EF39300DBE6F6 /* MenuFoldViewController.xib in Resources */,
 				CA1902EA1B10E523000271C4 /* LaunchScreen.storyboard in Resources */,
 				CA96F92B1B1144F7000CC7F8 /* Assets.xcassets in Resources */,
-				35B49FDD1D0EF39300DBE6F6 /* MenuItemTableViewCell.xib in Resources */,
 				CA1902E51B10E523000271C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,10 +473,8 @@
 				350BE6531CEDDF1100EE755B /* User.swift in Sources */,
 				350024AB1CB7029F00C5C62E /* RRTagCollectionViewCell.swift in Sources */,
 				35F3B32E1D00CF5E003F2742 /* MSWeakTimer.m in Sources */,
-				35B49FDC1D0EF39300DBE6F6 /* MenuItemTableViewCell.swift in Sources */,
 				350BE6541CEDDF1100EE755B /* UserListTableViewController.swift in Sources */,
 				353C15021C9E878E007FFF4E /* FloatRatingView.swift in Sources */,
-				35B49FDA1D0EF39300DBE6F6 /* MenuFoldViewController.swift in Sources */,
 				CA1902E01B10E523000271C4 /* AppDelegate.swift in Sources */,
 				35F3B3281D00CF39003F2742 /* GradientView.m in Sources */,
 				35F3B3311D00CF66003F2742 /* UINavigationBar+Awesome.m in Sources */,

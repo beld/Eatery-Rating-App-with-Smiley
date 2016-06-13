@@ -9,8 +9,8 @@ class MealTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.leftBarButtonItem = editButtonItem()
-        navigationItem.leftBarButtonItem?.title = "Bearbeiten"
+        navigationItem.rightBarButtonItem = editButtonItem()
+        navigationItem.rightBarButtonItem?.title = "Bearbeiten"
         self.automaticallyAdjustsScrollViewInsets = false
         view.backgroundColor = UIColor.whiteColor()
         self.navigationController?.navigationBar.df_setBackgroundColor(UIColor.clearColor())
@@ -46,10 +46,10 @@ class MealTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        if navigationItem.leftBarButtonItem?.title == "Done" {
-            navigationItem.leftBarButtonItem?.title = "Bestätigen"
-        } else if navigationItem.leftBarButtonItem?.title == "Edit" {
-            navigationItem.leftBarButtonItem?.title = "Bearbeiten"
+        if navigationItem.rightBarButtonItem?.title == "Done" {
+            navigationItem.rightBarButtonItem?.title = "Bestätigen"
+        } else if navigationItem.rightBarButtonItem?.title == "Edit" {
+            navigationItem.rightBarButtonItem?.title = "Bearbeiten"
         }
         // Return false if you do not want the specified item to be editable.
         return true
