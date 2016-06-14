@@ -94,16 +94,16 @@ class UserListTableViewController: UITableViewController, UITextFieldDelegate, U
         textfield1.delegate = self
         subview.addSubview(textfield1)
         
-        let maleLabel = UILabel(frame: CGRectMake(10,textfield1.frame.maxY + 10,25,25))
-        maleLabel.text = "♂:"
+        let maleLabel = UILabel(frame: CGRectMake(10,textfield1.frame.maxY + 10,50,25))
+        maleLabel.text = "Herr:"
         subview.addSubview(maleLabel)
         
         let maleCheckbox = M13Checkbox(frame: CGRectMake(maleLabel.frame.maxX+5,textfield1.frame.maxY + 10,25,25))
         maleCheckbox.stateChangeAnimation = .Expand(.Fill)
         subview.addSubview(maleCheckbox)
         
-        let femaleLabel = UILabel(frame: CGRectMake(maleCheckbox.frame.maxX + 60,textfield1.frame.maxY + 10,25,25))
-        femaleLabel.text = "♀:"
+        let femaleLabel = UILabel(frame: CGRectMake(maleCheckbox.frame.maxX + 35,textfield1.frame.maxY + 10,50,25))
+        femaleLabel.text = "Frau:"
         subview.addSubview(femaleLabel)
         
         let femaleCheckbox = M13Checkbox(frame: CGRectMake(femaleLabel.frame.maxX+5,textfield1.frame.maxY + 10,25,25))
@@ -248,8 +248,7 @@ class UserListTableViewController: UITableViewController, UITextFieldDelegate, U
             if let selectedIndexPath = tableView.indexPathForSelectedRow {
                 // updating existing user
                 users[selectedIndexPath.row] = user!
-                tableView.reloadRowsAtIndexPaths([selectedIndexPath], withRowAnimation: .None)
-                print("updated user")
+//                tableView.reloadRowsAtIndexPaths([selectedIndexPath], withRowAnimation: .None)
             }
             saveUsers()
             self.tableView.reloadData()

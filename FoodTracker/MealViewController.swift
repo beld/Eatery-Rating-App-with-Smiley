@@ -72,7 +72,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         
         navigationController!.navigationBar.tintColor = UIColor.whiteColor()
         navigationController!.navigationBar.titleTextAttributes =
-            ([NSFontAttributeName: UIFont(name: "BradleyHandITCTT-Bold", size: 15)!,
+            ([NSFontAttributeName: UIFont(name: "ChalkboardSE-Bold", size: 17)!,
                 NSForegroundColorAttributeName: UIColor.whiteColor()])
         
         // Handle the text field’s user input through delegate callbacks.
@@ -87,7 +87,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
             tasteLabel.text = String(format: "%.1f / 5.0", meal!.tasteRating).stringByReplacingOccurrencesOfString(".", withString: ",")
             tasteEmojiView.rateValue = (meal?.tasteRating)!
 
-            healthLabel.text = String(format: "%.1f / 5.0", meal!.healthRating)
+            healthLabel.text = String(format: "%.1f / 5.0", meal!.healthRating).stringByReplacingOccurrencesOfString(".", withString: ",")
             healthEmojiView.rateValue = (meal?.healthRating)!
          
             fatLabel.text = String(format: "%.1f / 5.0", meal!.fatRating).stringByReplacingOccurrencesOfString(".", withString: ",")

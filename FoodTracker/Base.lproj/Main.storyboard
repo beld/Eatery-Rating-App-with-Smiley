@@ -26,66 +26,54 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="90.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KH7-wK-LIT" customClass="FloatRatingView" customModule="Eatery_Smile" customModuleProvider="target">
-                                            <rect key="frame" x="97" y="37" width="188" height="33"/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" secondItem="KH7-wK-LIT" secondAttribute="height" multiplier="57:10" id="Lkx-5B-wtR"/>
-                                            </constraints>
-                                            <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="emptyStar"/>
-                                                <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="filledStar"/>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="minRating">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="maxRating">
-                                                    <integer key="value" value="5"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="rating">
-                                                    <real key="value" value="3"/>
-                                                </userDefinedRuntimeAttribute>
-                                            </userDefinedRuntimeAttributes>
-                                        </view>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="3.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80D-dG-R1A">
-                                            <rect key="frame" x="300" y="37" width="53" height="32"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                            <color key="textColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afY-mg-s8l">
-                                            <rect key="frame" x="97" y="8" width="495" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="r1z-K4-h5D">
                                             <rect key="frame" x="0.0" y="0.0" width="89" height="89"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="r1z-K4-h5D" secondAttribute="height" multiplier="1:1" id="foc-Pu-Sw2"/>
                                             </constraints>
                                         </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afY-mg-s8l">
+                                            <rect key="frame" x="97" y="8" width="495" height="21"/>
+                                            <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
+                                            <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                <rect key="frame" x="98" y="35" width="269" height="21"/>
+                                            </variation>
+                                        </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="80D-dG-R1A" firstAttribute="top" secondItem="afY-mg-s8l" secondAttribute="bottom" constant="8" id="1WJ-Kh-Pwk"/>
-                                        <constraint firstItem="80D-dG-R1A" firstAttribute="leading" secondItem="KH7-wK-LIT" secondAttribute="trailing" constant="15" id="9ar-qj-mxt"/>
                                         <constraint firstItem="afY-mg-s8l" firstAttribute="top" secondItem="TpD-sJ-fVf" secondAttribute="topMargin" id="DCk-RT-DbY"/>
+                                        <constraint firstItem="afY-mg-s8l" firstAttribute="trailing" secondItem="TpD-sJ-fVf" secondAttribute="trailingMargin" id="EQY-3p-nVQ"/>
+                                        <constraint firstItem="afY-mg-s8l" firstAttribute="centerY" secondItem="r1z-K4-h5D" secondAttribute="centerY" id="Ign-zb-ufH"/>
                                         <constraint firstItem="r1z-K4-h5D" firstAttribute="leading" secondItem="TpD-sJ-fVf" secondAttribute="leading" id="XD0-I1-Rbh"/>
                                         <constraint firstItem="afY-mg-s8l" firstAttribute="leading" secondItem="r1z-K4-h5D" secondAttribute="trailing" constant="8" id="jDF-qM-BXt"/>
+                                        <constraint firstItem="afY-mg-s8l" firstAttribute="leading" secondItem="r1z-K4-h5D" secondAttribute="trailing" constant="7" id="mAz-bG-hl4"/>
                                         <constraint firstItem="r1z-K4-h5D" firstAttribute="top" secondItem="TpD-sJ-fVf" secondAttribute="top" id="mYi-8N-IPl"/>
-                                        <constraint firstItem="KH7-wK-LIT" firstAttribute="top" secondItem="afY-mg-s8l" secondAttribute="bottom" constant="8" id="mhc-Lx-9i7"/>
                                         <constraint firstAttribute="bottom" secondItem="r1z-K4-h5D" secondAttribute="bottom" constant="1" id="pAj-M0-oqH">
                                             <variation key="heightClass=regular" constant="0.0"/>
                                         </constraint>
-                                        <constraint firstItem="KH7-wK-LIT" firstAttribute="leading" secondItem="r1z-K4-h5D" secondAttribute="trailing" constant="8" id="uaT-YC-dLX"/>
-                                        <constraint firstItem="KH7-wK-LIT" firstAttribute="top" secondItem="afY-mg-s8l" secondAttribute="bottom" constant="8" id="vJE-Fm-JES"/>
-                                        <constraint firstItem="KH7-wK-LIT" firstAttribute="centerY" secondItem="80D-dG-R1A" secondAttribute="centerY" id="yMg-tb-BkF"/>
                                     </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="EQY-3p-nVQ"/>
+                                            <exclude reference="Ign-zb-ufH"/>
+                                            <exclude reference="mAz-bG-hl4"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <mask key="constraints">
+                                            <exclude reference="DCk-RT-DbY"/>
+                                            <include reference="EQY-3p-nVQ"/>
+                                            <include reference="Ign-zb-ufH"/>
+                                            <exclude reference="jDF-qM-BXt"/>
+                                            <include reference="mAz-bG-hl4"/>
+                                        </mask>
+                                    </variation>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="floatRatingView" destination="KH7-wK-LIT" id="EvY-on-nLe"/>
                                     <outlet property="nameLabel" destination="afY-mg-s8l" id="aX4-95-O5F"/>
                                     <outlet property="photoImageView" destination="r1z-K4-h5D" id="xfr-zo-kev"/>
-                                    <outlet property="rating" destination="80D-dG-R1A" id="uhJ-cF-uue"/>
                                     <segue destination="s6H-3G-2UX" kind="show" identifier="ShowDetail" id="Ahf-Xb-hgP"/>
                                 </connections>
                             </tableViewCell>
@@ -1280,53 +1268,6 @@
                                                     </mask>
                                                 </variation>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ji4-UP-fYa" customClass="EmojiRateView" customModule="TTGEmojiRate">
-                                                <rect key="frame" x="134" y="208" width="500" height="500"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="Ji4-UP-fYa" secondAttribute="height" multiplier="1:1" id="T6H-CK-ybw"/>
-                                                </constraints>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="rateLineWidth">
-                                                        <real key="value" value="4"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="rateDynamicColor" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="rateColor">
-                                                        <color key="value" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="rateMouthWidth">
-                                                        <real key="value" value="0.59999999999999998"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="rateMouthVerticalPosition">
-                                                        <real key="value" value="0.34999999999999998"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="rateShowEyes" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="rateEyeWidth">
-                                                        <real key="value" value="0.20000000000000001"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="rateEyeVerticalPosition">
-                                                        <real key="value" value="0.59999999999999998"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="rateValue">
-                                                        <real key="value" value="4"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <variation key="default">
-                                                    <mask key="constraints">
-                                                        <exclude reference="T6H-CK-ybw"/>
-                                                    </mask>
-                                                </variation>
-                                                <variation key="heightClass=regular">
-                                                    <mask key="constraints">
-                                                        <include reference="T6H-CK-ybw"/>
-                                                    </mask>
-                                                </variation>
-                                                <variation key="heightClass=regular-widthClass=compact">
-                                                    <mask key="constraints">
-                                                        <exclude reference="T6H-CK-ybw"/>
-                                                    </mask>
-                                                </variation>
-                                            </view>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="etm-R1-4de">
                                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1466,6 +1407,53 @@
                                                     </mask>
                                                 </variation>
                                             </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ji4-UP-fYa" customClass="EmojiRateView" customModule="TTGEmojiRate">
+                                                <rect key="frame" x="134" y="208" width="500" height="500"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="Ji4-UP-fYa" secondAttribute="height" multiplier="1:1" id="T6H-CK-ybw"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="rateLineWidth">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="rateDynamicColor" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="rateColor">
+                                                        <color key="value" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="rateMouthWidth">
+                                                        <real key="value" value="0.59999999999999998"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="rateMouthVerticalPosition">
+                                                        <real key="value" value="0.34999999999999998"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="rateShowEyes" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="rateEyeWidth">
+                                                        <real key="value" value="0.20000000000000001"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="rateEyeVerticalPosition">
+                                                        <real key="value" value="0.59999999999999998"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="rateValue">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="T6H-CK-ybw"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="heightClass=regular">
+                                                    <mask key="constraints">
+                                                        <include reference="T6H-CK-ybw"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=compact">
+                                                    <mask key="constraints">
+                                                        <exclude reference="T6H-CK-ybw"/>
+                                                    </mask>
+                                                </variation>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1705,11 +1693,11 @@
                                                 <exclude reference="mdF-hH-wZL"/>
                                                 <exclude reference="XKf-Au-uEh"/>
                                                 <exclude reference="lJU-Xm-asx"/>
-                                                <exclude reference="Ji4-UP-fYa"/>
                                                 <exclude reference="etm-R1-4de"/>
                                                 <exclude reference="xc1-H5-vq0"/>
                                                 <exclude reference="2Q8-XT-gWr"/>
                                                 <exclude reference="H4s-p3-MsM"/>
+                                                <exclude reference="Ji4-UP-fYa"/>
                                             </mask>
                                             <mask key="constraints">
                                                 <exclude reference="Ak3-rZ-KnV"/>
@@ -1920,10 +1908,10 @@
                                                 <include reference="mdF-hH-wZL"/>
                                                 <include reference="XKf-Au-uEh"/>
                                                 <include reference="lJU-Xm-asx"/>
-                                                <include reference="Ji4-UP-fYa"/>
                                                 <include reference="xc1-H5-vq0"/>
                                                 <include reference="2Q8-XT-gWr"/>
                                                 <include reference="H4s-p3-MsM"/>
+                                                <include reference="Ji4-UP-fYa"/>
                                             </mask>
                                             <mask key="constraints">
                                                 <include reference="Ak3-rZ-KnV"/>
@@ -2556,8 +2544,6 @@
     <resources>
         <image name="back" width="25" height="25"/>
         <image name="defaultPhoto" width="540" height="540"/>
-        <image name="emptyStar" width="22" height="22"/>
-        <image name="filledStar" width="22" height="22"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Ahf-Xb-hgP"/>
