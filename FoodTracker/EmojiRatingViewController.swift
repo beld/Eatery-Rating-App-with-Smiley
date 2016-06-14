@@ -26,7 +26,8 @@ class EmojiRatingViewController: UIViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        emojiRateView.rateValue = self.ratingValue
+        self.ratingLabel.text = String(format: "%.1f / 5.0", self.ratingValue)
         emojiRateView.rateValueChangeCallback = {(rateValue: Float) -> Void in
             let roundRateValue = round(rateValue * 2) / 2
             self.ratingValue = roundRateValue

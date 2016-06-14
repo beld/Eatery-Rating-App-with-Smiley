@@ -120,6 +120,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
             descriptionTextView.text = existingMeal.cookingDescription
         }
         
+        // disable the rating
         tasteEmojiView.rateDragSensitivity = 0
         healthEmojiView.rateDragSensitivity = 0
         fatEmojiView.rateDragSensitivity = 0
@@ -211,6 +212,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
                 self.currentRatingContent = content
                 destinationViewController.navigationItem.title = content
                 destinationViewController.ratingContentInfo = self.dict[content]
+                destinationViewController.ratingValue = getCurrentValue(content)
             }
         }
     }
@@ -231,6 +233,35 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         
         presentViewController(imagePickerController, animated: true, completion: nil)
     }
+
+    func getCurrentValue(content: String) -> Float {
+        switch content {
+            case "Geschmack":
+                currentRatingValue = meal!.tasteRating
+            case "Gesundheit":
+                 currentRatingValue =  meal!.healthRating
+            case "Kalorien":
+                currentRatingValue = meal!.caloryRating
+            case "Energiedichte":
+                currentRatingValue = meal!.energyDensityRating
+            case "Fett":
+                currentRatingValue = meal!.fatRating
+            case "Kohlenhydrate":
+               currentRatingValue =  meal!.carbRating
+            case "Schwierigkeit":
+                currentRatingValue = meal!.difficultyRating
+            case "Zeit":
+                currentRatingValue = meal!.timeRating
+            case "Zucker":
+                currentRatingValue = meal!.sugarRating
+            case "Vitamine":
+                currentRatingValue = meal!.vitaminRating
+            case "Ballaststoffe":
+                currentRatingValue = meal!.fibreRating
+            default: break
+        }
+        return currentRatingValue
+    }
     
     func update() {
         switch currentRatingContent {
@@ -238,7 +269,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
                 meal!.tasteRating = currentRatingValue
                 tasteLabel.text = String(format: "%.1f / 5.0", currentRatingValue)
                 tasteEmojiView.rateValue = (meal?.tasteRating)!
-           case "Gesundheit":
+            case "Gesundheit":
                 meal!.healthRating = currentRatingValue
                 healthLabel.text = String(format: "%.1f / 5.0", currentRatingValue)
                 healthEmojiView.rateValue = (meal?.healthRating)!
@@ -250,7 +281,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
                 meal!.energyDensityRating = currentRatingValue
                 energyDensityLabel.text = String(format: "%.1f / 5.0", currentRatingValue)
                 energyDensityEmojiView.rateValue = (meal?.energyDensityRating)!
-           case "Fett":
+            case "Fett":
                 meal!.fatRating = currentRatingValue
                 fatLabel.text = String(format: "%.1f / 5.0", currentRatingValue)
                 fatEmojiView.rateValue = (meal?.fatRating)!
@@ -258,7 +289,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
                 meal!.carbRating = currentRatingValue
                 carbLabel.text = String(format: "%.1f / 5.0", currentRatingValue)
                 carbEmojiView.rateValue = (meal?.carbRating)!
-           case "Schwierigkeit":
+            case "Schwierigkeit":
                 meal!.difficultyRating = currentRatingValue
                 diffcultyLabel.text = String(format: "%.1f / 5.0", currentRatingValue)
                 difficultyEmojiView.rateValue = (meal?.difficultyRating)!
