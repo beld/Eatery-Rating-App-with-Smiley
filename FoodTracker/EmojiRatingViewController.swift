@@ -26,13 +26,26 @@ class EmojiRatingViewController: UIViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        emojiRateView.rateValue = self.ratingValue
-        self.ratingLabel.text = String(format: "%.1f / 5.0", self.ratingValue)
-        emojiRateView.rateValueChangeCallback = {(rateValue: Float) -> Void in
-            let roundRateValue = round(rateValue * 2) / 2
-            self.ratingValue = roundRateValue
-            self.ratingLabel.text = String(format: "%.1f / 5.0", self.ratingValue)
+        
+        // opposite direction, large is bad
+        if ratingContent == "Fett" || ratingContent == "Kohlenhydrate" || ratingContent == "Kalorien"
+        || ratingContent == "Energiedichte" || ratingContent == "Zeit" || ratingContent == "Zucker"
+        || ratingContent == "Schwierigkeit" {
+            emojiRateView.rateValue = 5 - self.ratingValue
+            emojiRateView.rateValueChangeCallback = {(rateValue: Float) -> Void in
+                let roundRateValue = round((5 - rateValue) * 2) / 2
+                self.ratingValue = roundRateValue
+                self.ratingLabel.text = String(format: "%.1f / 5.0", self.ratingValue).stringByReplacingOccurrencesOfString(".", withString: ",")
+            }
+        } else {
+            emojiRateView.rateValue = self.ratingValue
+            emojiRateView.rateValueChangeCallback = {(rateValue: Float) -> Void in
+                let roundRateValue = round(rateValue * 2) / 2
+                self.ratingValue = roundRateValue
+                self.ratingLabel.text = String(format: "%.1f / 5.0", self.ratingValue).stringByReplacingOccurrencesOfString(".", withString: ",")
+            }
         }
+        self.ratingLabel.text = String(format: "%.1f / 5.0", self.ratingValue).stringByReplacingOccurrencesOfString(".", withString: ",")
         self.navigationController!.navigationBar.topItem!.title = ""
         self.ratingInfoLabel.text = ratingContentInfo
     }

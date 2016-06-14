@@ -84,37 +84,37 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
             nameTextField.text = existingMeal.name
             photoImageView.image = existingMeal.photo
             
-            tasteLabel.text = String(format: "%.1f / 5.0", meal!.tasteRating)
+            tasteLabel.text = String(format: "%.1f / 5.0", meal!.tasteRating).stringByReplacingOccurrencesOfString(".", withString: ",")
             tasteEmojiView.rateValue = (meal?.tasteRating)!
 
             healthLabel.text = String(format: "%.1f / 5.0", meal!.healthRating)
             healthEmojiView.rateValue = (meal?.healthRating)!
          
-            fatLabel.text = String(format: "%.1f / 5.0", meal!.fatRating)
-            fatEmojiView.rateValue = (meal?.fatRating)!
+            fatLabel.text = String(format: "%.1f / 5.0", meal!.fatRating).stringByReplacingOccurrencesOfString(".", withString: ",")
+            fatEmojiView.rateValue = 5 - (meal?.fatRating)!
 
-            carbLabel.text = String(format: "%.1f / 5.0", meal!.carbRating)
-            carbEmojiView.rateValue = (meal?.carbRating)!
+            carbLabel.text = String(format: "%.1f / 5.0", meal!.carbRating).stringByReplacingOccurrencesOfString(".", withString: ",")
+            carbEmojiView.rateValue = 5 - (meal?.carbRating)!
            
-            caloryLabel.text = String(format: "%.1f / 5.0", meal!.caloryRating)
-            caloryEmojiView.rateValue = (meal?.caloryRating)!
+            caloryLabel.text = String(format: "%.1f / 5.0", meal!.caloryRating).stringByReplacingOccurrencesOfString(".", withString: ",")
+            caloryEmojiView.rateValue = 5 - (meal?.caloryRating)!
           
-            energyDensityLabel.text = String(format: "%.1f / 5.0", meal!.energyDensityRating)
-            energyDensityEmojiView.rateValue = (meal?.energyDensityRating)!
+            energyDensityLabel.text = String(format: "%.1f / 5.0", meal!.energyDensityRating).stringByReplacingOccurrencesOfString(".", withString: ",")
+            energyDensityEmojiView.rateValue = 5 - (meal?.energyDensityRating)!
         
-            diffcultyLabel.text = String(format: "%.1f / 5.0", meal!.difficultyRating)
-            difficultyEmojiView.rateValue = (meal?.difficultyRating)!
+            diffcultyLabel.text = String(format: "%.1f / 5.0", meal!.difficultyRating).stringByReplacingOccurrencesOfString(".", withString: ",")
+            difficultyEmojiView.rateValue = 5 - (meal?.difficultyRating)!
             
-            timeLabel.text = String(format: "%.1f / 5.0", meal!.timeRating)
-            timeEmojiView.rateValue = (meal?.timeRating)!
+            timeLabel.text = String(format: "%.1f / 5.0", meal!.timeRating).stringByReplacingOccurrencesOfString(".", withString: ",")
+            timeEmojiView.rateValue = 5 - (meal?.timeRating)!
             
-            sugarLabel.text = String(format: "%.1f / 5.0", meal!.sugarRating)
-            sugarEmojiView.rateValue = (meal?.sugarRating)!
+            sugarLabel.text = String(format: "%.1f / 5.0", meal!.sugarRating).stringByReplacingOccurrencesOfString(".", withString: ",")
+            sugarEmojiView.rateValue = 5 - (meal?.sugarRating)!
             
-            vitaminLabel.text = String(format: "%.1f / 5.0", meal!.vitaminRating)
+            vitaminLabel.text = String(format: "%.1f / 5.0", meal!.vitaminRating).stringByReplacingOccurrencesOfString(".", withString: ",")
             vitaminEmojiView.rateValue = (meal?.vitaminRating)!
             
-            fibreLabel.text = String(format: "%.1f / 5.0", meal!.fibreRating)
+            fibreLabel.text = String(format: "%.1f / 5.0", meal!.fibreRating).stringByReplacingOccurrencesOfString(".", withString: ",")
             fibreEmojiView.rateValue = (meal?.fibreRating)!
          
             descriptionTextView.text = existingMeal.cookingDescription
@@ -267,47 +267,47 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         switch currentRatingContent {
             case "Geschmack":
                 meal!.tasteRating = currentRatingValue
-                tasteLabel.text = String(format: "%.1f / 5.0", currentRatingValue)
+                tasteLabel.text = String(format: "%.1f / 5.0", currentRatingValue).stringByReplacingOccurrencesOfString(".", withString: ",")
                 tasteEmojiView.rateValue = (meal?.tasteRating)!
             case "Gesundheit":
                 meal!.healthRating = currentRatingValue
-                healthLabel.text = String(format: "%.1f / 5.0", currentRatingValue)
+                healthLabel.text = String(format: "%.1f / 5.0", currentRatingValue).stringByReplacingOccurrencesOfString(".", withString: ",")
                 healthEmojiView.rateValue = (meal?.healthRating)!
             case "Kalorien":
                  meal!.caloryRating = currentRatingValue
-                caloryLabel.text = String(format: "%.1f / 5.0", currentRatingValue)
-                caloryEmojiView.rateValue = (meal?.caloryRating)!
+                caloryLabel.text = String(format: "%.1f / 5.0", currentRatingValue).stringByReplacingOccurrencesOfString(".", withString: ",")
+                caloryEmojiView.rateValue = 5 - (meal?.caloryRating)!
             case "Energiedichte":
                 meal!.energyDensityRating = currentRatingValue
-                energyDensityLabel.text = String(format: "%.1f / 5.0", currentRatingValue)
-                energyDensityEmojiView.rateValue = (meal?.energyDensityRating)!
+                energyDensityLabel.text = String(format: "%.1f / 5.0", currentRatingValue).stringByReplacingOccurrencesOfString(".", withString: ",")
+                energyDensityEmojiView.rateValue = 5 - (meal?.energyDensityRating)!
             case "Fett":
                 meal!.fatRating = currentRatingValue
-                fatLabel.text = String(format: "%.1f / 5.0", currentRatingValue)
-                fatEmojiView.rateValue = (meal?.fatRating)!
+                fatLabel.text = String(format: "%.1f / 5.0", currentRatingValue).stringByReplacingOccurrencesOfString(".", withString: ",")
+                fatEmojiView.rateValue = 5 - (meal?.fatRating)!
             case "Kohlenhydrate":
                 meal!.carbRating = currentRatingValue
-                carbLabel.text = String(format: "%.1f / 5.0", currentRatingValue)
-                carbEmojiView.rateValue = (meal?.carbRating)!
+                carbLabel.text = String(format: "%.1f / 5.0", currentRatingValue).stringByReplacingOccurrencesOfString(".", withString: ",")
+                carbEmojiView.rateValue = 5 - (meal?.carbRating)!
             case "Schwierigkeit":
                 meal!.difficultyRating = currentRatingValue
-                diffcultyLabel.text = String(format: "%.1f / 5.0", currentRatingValue)
-                difficultyEmojiView.rateValue = (meal?.difficultyRating)!
+                diffcultyLabel.text = String(format: "%.1f / 5.0", currentRatingValue).stringByReplacingOccurrencesOfString(".", withString: ",")
+                difficultyEmojiView.rateValue = 5 - (meal?.difficultyRating)!
             case "Zeit":
                 meal!.timeRating = currentRatingValue
-                timeLabel.text = String(format: "%.1f / 5.0", currentRatingValue)
-                timeEmojiView.rateValue = (meal?.timeRating)!
+                timeLabel.text = String(format: "%.1f / 5.0", currentRatingValue).stringByReplacingOccurrencesOfString(".", withString: ",")
+                timeEmojiView.rateValue = 5 - (meal?.timeRating)!
             case "Zucker":
                 meal!.sugarRating = currentRatingValue
-                sugarLabel.text = String(format: "%.1f / 5.0", currentRatingValue)
-                sugarEmojiView.rateValue = (meal?.sugarRating)!
+                sugarLabel.text = String(format: "%.1f / 5.0", currentRatingValue).stringByReplacingOccurrencesOfString(".", withString: ",")
+                sugarEmojiView.rateValue = 5 - (meal?.sugarRating)!
             case "Vitamine":
                 meal!.vitaminRating = currentRatingValue
-                vitaminLabel.text = String(format: "%.1f / 5.0", currentRatingValue)
+                vitaminLabel.text = String(format: "%.1f / 5.0", currentRatingValue).stringByReplacingOccurrencesOfString(".", withString: ",")
                 vitaminEmojiView.rateValue = (meal?.vitaminRating)!
             case "Ballaststoffe":
                 meal!.fibreRating = currentRatingValue
-                fibreLabel.text = String(format: "%.1f / 5.0", currentRatingValue)
+                fibreLabel.text = String(format: "%.1f / 5.0", currentRatingValue).stringByReplacingOccurrencesOfString(".", withString: ",")
                 fibreEmojiView.rateValue = (meal?.fibreRating)!
             default: break
         }
