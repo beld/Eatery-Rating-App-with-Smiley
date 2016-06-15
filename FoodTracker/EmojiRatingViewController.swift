@@ -8,6 +8,7 @@
 
 import UIKit
 import TTGEmojiRate
+import SCLAlertView
 
 protocol Delegate: class {
     func didPressSaveButton(ratingValue: Float) -> Bool
@@ -17,7 +18,6 @@ class EmojiRatingViewController: UIViewController{
 
     @IBOutlet weak var ratingLabel: UILabel!
     @IBOutlet weak var emojiRateView: EmojiRateView!
-    @IBOutlet weak var ratingInfoLabel: UILabel!
     
     weak var delegate: Delegate?
     var ratingContent: String!
@@ -47,7 +47,11 @@ class EmojiRatingViewController: UIViewController{
         }
         self.ratingLabel.text = String(format: "%.1f / 5.0", self.ratingValue).stringByReplacingOccurrencesOfString(".", withString: ",")
         self.navigationController!.navigationBar.topItem!.title = ""
-        self.ratingInfoLabel.text = ratingContentInfo
+    }
+    
+    @IBAction func infoBox(sender: AnyObject) {
+        let alert = SCLAlertView()
+        alert.showInfo("", subTitle: ratingContentInfo, closeButtonTitle: "Bestätigen", duration: 10)
     }
     
     @IBAction func saveRating(sender: AnyObject) {

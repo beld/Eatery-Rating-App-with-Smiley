@@ -1,6 +1,7 @@
 import UIKit
 import AMTagListView
 import TTGEmojiRate
+import SCLAlertView
 
 class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, Delegate {
     
@@ -23,8 +24,8 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     ]
     var currentRatingValue: Float!
     var currentRatingContent: String = ""
+    var cookingDescription: String = ""
     
-    @IBOutlet weak var descriptionTextView: UITextView!
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var saveButton: UIBarButtonItem!
@@ -117,7 +118,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
             fibreLabel.text = String(format: "%.1f / 5.0", meal!.fibreRating).stringByReplacingOccurrencesOfString(".", withString: ",")
             fibreEmojiView.rateValue = (meal?.fibreRating)!
          
-            descriptionTextView.text = existingMeal.cookingDescription
+            cookingDescription = existingMeal.cookingDescription
         }
         
         // disable the rating
@@ -132,8 +133,6 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         sugarEmojiView.rateDragSensitivity = 0
         vitaminEmojiView.rateDragSensitivity = 0
         fibreEmojiView.rateDragSensitivity = 0
-        
-        descriptionTextView.sizeToFit()
         
         // enable save button only if text field has valid name
         checkValidMealName()
@@ -182,6 +181,19 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         
         // Dismiss the picker.
         dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    @IBAction func showRecipe(sender: AnyObject) {
+        let appearance = SCLAlertView.SCLAppearance(
+            kTitleFont: UIFont(name: "HelveticaNeue", size: 22)!,
+            kTextFont: UIFont(name: "HelveticaNeue", size: 14)!,
+            kButtonFont: UIFont(name: "HelveticaNeue-Bold", size: 14)!,
+            kWindowWidth: CGFloat(300),
+            showCloseButton: true
+        )
+        
+        let alert = SCLAlertView(appearance: appearance)
+        alert.showInfo(nameTextField.text!, subTitle: cookingDescription, closeButtonTitle: "Bestätigen")
     }
     
     // MARK: Navigation
@@ -264,6 +276,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     }
     
     func update() {
+        navigationItem.title = meal?.name
         switch currentRatingContent {
             case "Geschmack":
                 meal!.tasteRating = currentRatingValue
