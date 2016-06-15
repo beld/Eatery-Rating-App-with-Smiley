@@ -17,13 +17,14 @@ class Meal: NSObject, NSCoding{
     var timeRating: Float
     var cookingDescription: String
     var elapsedRatingTime: Double
+    var isRated: Bool = false
     
     // MARK: Archiving Paths
     static let DocumentsDirectory = NSFileManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask).first!
     static let ArchiveURL = DocumentsDirectory.URLByAppendingPathComponent("meals")
     
     // MARK: Initialization
-    init?(name: String, photo: UIImage?, tasteRating: Float, healthRating: Float, fatRating: Float, carbRating: Float, caloryRating: Float, energyDensityRating: Float, sugarRating: Float, vitaminRating: Float, fibreRating: Float, difficultyRating: Float, timeRating: Float, cookingDescription: String, elapsedRatingTime: Double) {
+    init?(name: String, photo: UIImage?, tasteRating: Float, healthRating: Float, fatRating: Float, carbRating: Float, caloryRating: Float, energyDensityRating: Float, sugarRating: Float, vitaminRating: Float, fibreRating: Float, difficultyRating: Float, timeRating: Float, cookingDescription: String, elapsedRatingTime: Double, isRated: Bool) {
         // Initialize stored properties.
         self.name = name
         self.photo = photo
@@ -40,6 +41,7 @@ class Meal: NSObject, NSCoding{
         self.timeRating = timeRating
         self.cookingDescription = cookingDescription
         self.elapsedRatingTime = elapsedRatingTime
+        self.isRated = isRated
         
         super.init()
         
@@ -66,6 +68,7 @@ class Meal: NSObject, NSCoding{
         aCoder.encodeFloat(timeRating, forKey: "timeRating")
         aCoder.encodeObject(cookingDescription, forKey: "cookingDescription")
         aCoder.encodeDouble(elapsedRatingTime, forKey: "elapsedRatingTime")
+        aCoder.encodeBool(isRated, forKey: "isRated")
     }
     
     required convenience init?(coder aDecoder: NSCoder) {
@@ -84,8 +87,9 @@ class Meal: NSObject, NSCoding{
         let timeRating = aDecoder.decodeFloatForKey("timeRating")
         let cookingDescription = aDecoder.decodeObjectForKey("cookingDescription") as! String
         let elapsedRatingTime = aDecoder.decodeDoubleForKey("elapsedRatingTime")
+        let isRated = aDecoder.decodeBoolForKey("isRated")
         
-        self.init(name: name, photo: photo, tasteRating: tasteRating, healthRating: healthRating,fatRating: fatRating, carbRating: carbRating, caloryRating: caloryRating, energyDensityRating: energyDensityRating, sugarRating: sugarRating, vitaminRating: vitaminRating, fibreRating: fibreRating, difficultyRating: difficultyRating, timeRating: timeRating , cookingDescription: cookingDescription, elapsedRatingTime: elapsedRatingTime)
+        self.init(name: name, photo: photo, tasteRating: tasteRating, healthRating: healthRating,fatRating: fatRating, carbRating: carbRating, caloryRating: caloryRating, energyDensityRating: energyDensityRating, sugarRating: sugarRating, vitaminRating: vitaminRating, fibreRating: fibreRating, difficultyRating: difficultyRating, timeRating: timeRating , cookingDescription: cookingDescription, elapsedRatingTime: elapsedRatingTime, isRated: isRated)
     }
     
 }

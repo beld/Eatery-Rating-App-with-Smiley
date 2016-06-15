@@ -26,7 +26,6 @@ class UserListTableViewController: UITableViewController, UITextFieldDelegate, U
         self.automaticallyAdjustsScrollViewInsets = false
         self.navigationController?.navigationBar.df_setBackgroundColor(UIColor(red: 0/255, green: 255/255, blue: 0/255, alpha: 0.0))
         self.navigationController?.navigationBar.df_setStatusBarMaskColor(UIColor(white: 0, alpha: 0.0))
-        
         let imageView = UIImageView(image: UIImage(named: "user-profile-bg"))
         imageView.contentMode = UIViewContentMode.Redraw
         imageView.frame = CGRect(x: 0, y: 0, width: self.view.bounds.width, height: self.view.bounds.width * 0.3)
@@ -138,7 +137,6 @@ class UserListTableViewController: UITableViewController, UITextFieldDelegate, U
         
         // Add the subview to the alert's UI property
         alert.customSubview = subview
-        
         alert.addButton("Anmeldung") {
             if textfield1.text!.isEmpty
                 || (maleCheckbox.checkState == .Unchecked && femaleCheckbox.checkState == .Unchecked)
@@ -161,10 +159,7 @@ class UserListTableViewController: UITableViewController, UITextFieldDelegate, U
                 self.tableView.reloadData()
             }
         }
-        
-        alert.addButton("Abbruch") {
-            
-        }
+        alert.addButton("Abbruch") {}
         return alert
     }
     
